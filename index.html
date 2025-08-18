@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Prophetic Family Tree & Genealogy</title>
+    <title>Prophetic Family Tree: From Adam to Muhammad (PBUT)</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Scheherazade+New:wght@400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
         
         * {
             margin: 0;
@@ -15,14 +15,14 @@
 
         body {
             font-family: 'Amiri', serif;
-            background: radial-gradient(ellipse at top, #0f2027 0%, #203a43 40%, #2c5364 100%);
+            background: radial-gradient(ellipse at center, #0f2027 0%, #203a43 50%, #2c5364 100%);
             color: #2c3e50;
             overflow-x: auto;
             min-height: 100vh;
             position: relative;
         }
 
-        /* Intricate Islamic Pattern Background */
+        /* Islamic Geometric Background Pattern */
         body::before {
             content: '';
             position: fixed;
@@ -31,28 +31,25 @@
             width: 100%;
             height: 100%;
             background-image: 
-                radial-gradient(circle at 20% 20%, rgba(184, 134, 11, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(30, 60, 114, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 40% 60%, rgba(184, 134, 11, 0.05) 0%, transparent 30%),
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="islamic" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse"><g stroke="rgba(184,134,11,0.12)" stroke-width="0.8" fill="none"><path d="M20,0 L30,10 L20,20 L10,10 Z"/><path d="M0,20 L10,30 L0,40 L-10,30 Z"/><path d="M40,20 L50,30 L40,40 L30,30 Z"/><path d="M20,40 L30,50 L20,60 L10,50 Z"/><circle cx="20" cy="20" r="3" fill="rgba(184,134,11,0.06)"/></g></pattern></defs><rect width="200" height="200" fill="url(%23islamic)"/></svg>');
+                radial-gradient(circle at 25% 25%, rgba(184, 134, 11, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(30, 60, 114, 0.1) 0%, transparent 50%),
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="islamic" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M10,0 L15,5 L10,10 L5,5 Z" fill="none" stroke="rgba(184,134,11,0.15)" stroke-width="0.5"/><circle cx="10" cy="10" r="1" fill="rgba(184,134,11,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23islamic)"/></svg>');
             pointer-events: none;
             z-index: -1;
         }
 
         .container {
             width: 100%;
-            max-width: 2400px;
+            max-width: 1800px;
             margin: 0 auto;
             background: linear-gradient(135deg, 
-                rgba(255,255,255,0.97) 0%, 
-                rgba(248,250,252,0.98) 30%, 
-                rgba(255,255,255,0.97) 70%,
-                rgba(248,250,252,0.98) 100%);
+                rgba(255,255,255,0.95) 0%, 
+                rgba(248,249,250,0.98) 50%, 
+                rgba(255,255,255,0.95) 100%);
             box-shadow: 
-                0 0 120px rgba(0,0,0,0.4),
-                inset 0 2px 0 rgba(255,255,255,0.9),
-                inset 0 -2px 0 rgba(255,255,255,0.7);
-            border: 4px solid transparent;
+                0 0 100px rgba(0,0,0,0.3),
+                inset 0 1px 0 rgba(255,255,255,0.8);
+            border: 3px solid transparent;
             background-clip: padding-box;
             position: relative;
         }
@@ -60,23 +57,23 @@
         .container::before {
             content: '';
             position: absolute;
-            top: -4px;
-            left: -4px;
-            right: -4px;
-            bottom: -4px;
-            background: conic-gradient(from 0deg, #b8860b, #1e3c72, #daa520, #2a5298, #b8860b);
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(45deg, #b8860b, #1e3c72, #b8860b, #1e3c72);
             z-index: -1;
             border-radius: inherit;
         }
 
         .header {
-            background: linear-gradient(135deg, #0d1b2a 0%, #1e3c72 25%, #415a77 50%, #b8860b 75%, #daa520 100%);
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 25%, #b8860b 75%, #daa520 100%);
             color: white;
-            padding: 100px 60px;
+            padding: 80px 40px;
             text-align: center;
             position: relative;
             overflow: hidden;
-            border-bottom: 8px solid #daa520;
+            border-bottom: 5px solid #daa520;
         }
 
         .header::before {
@@ -86,429 +83,321 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><defs><pattern id="headerPattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><g stroke="rgba(255,255,255,0.15)" stroke-width="1.2" fill="none"><path d="M30,0 L45,15 L30,30 L15,15 Z"/><path d="M0,30 L15,45 L0,60 L-15,45 Z"/><path d="M60,30 L75,45 L60,60 L45,45 Z"/><circle cx="30" cy="30" r="4" fill="rgba(255,255,255,0.1)"/><path d="M30,10 L40,20 L30,30 L20,20 Z" fill="rgba(255,255,255,0.08)"/></g></pattern></defs><rect width="400" height="400" fill="url(%23headerPattern)"/></svg>');
-            opacity: 0.4;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="headerPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M20,0 L30,10 L20,20 L10,10 Z M0,20 L10,30 L0,40 L-10,30 Z M40,20 L50,30 L40,40 L30,30 Z M20,40 L30,50 L20,60 L10,50 Z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.2)"/></pattern></defs><rect width="200" height="200" fill="url(%23headerPattern)"/></svg>');
+            opacity: 0.3;
         }
 
         .header h1 {
             font-family: 'Cinzel', serif;
-            font-size: 4.5em;
+            font-size: 4em;
             font-weight: 700;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             position: relative;
             z-index: 2;
-            text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
-            letter-spacing: 3px;
-            background: linear-gradient(45deg, #ffffff, #daa520, #ffffff, #b8860b);
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+            letter-spacing: 2px;
+            background: linear-gradient(45deg, #fff, #daa520, #fff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: shimmer 3s ease-in-out infinite alternate;
-        }
-
-        @keyframes shimmer {
-            0% { filter: brightness(1); }
-            100% { filter: brightness(1.2); }
         }
 
         .header .subtitle {
-            font-family: 'Scheherazade New', serif;
-            font-size: 2em;
+            font-size: 1.6em;
             font-style: italic;
             opacity: 0.95;
             position: relative;
             z-index: 2;
-            text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
             font-weight: 500;
-            line-height: 1.4;
         }
 
-        .genealogy-container {
-            padding: 80px 30px;
+        .tree-container {
+            padding: 60px 20px;
             background: linear-gradient(180deg, 
                 rgba(248,249,250,1) 0%, 
-                rgba(255,255,255,1) 15%, 
-                rgba(248,249,250,1) 30%,
-                rgba(255,255,255,1) 45%,
-                rgba(248,249,250,1) 60%,
-                rgba(255,255,255,1) 75%,
+                rgba(255,255,255,1) 20%, 
                 rgba(248,249,250,1) 100%);
             position: relative;
-            min-height: 4000px;
+            min-height: 2000px;
         }
 
-        /* Generation Sections */
-        .generation {
+        /* Main Tree Structure */
+        .tree {
             position: relative;
-            margin: 120px 0;
-            padding: 40px 0;
-        }
-
-        .generation-header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        .generation-title {
-            font-family: 'Cinzel', serif;
-            font-size: 2.8em;
-            color: #1e3c72;
-            font-weight: 600;
-            margin-bottom: 15px;
-            position: relative;
-            display: inline-block;
-        }
-
-        .generation-title::before,
-        .generation-title::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            width: 120px;
-            height: 3px;
-            background: linear-gradient(45deg, #b8860b, #daa520);
-            border-radius: 2px;
-        }
-
-        .generation-title::before {
-            right: 110%;
-        }
-
-        .generation-title::after {
-            left: 110%;
-        }
-
-        .generation-subtitle {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4em;
-            color: #7d6608;
-            font-style: italic;
-            font-weight: 500;
-        }
-
-        .era-info {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 20px;
-            border-radius: 15px;
-            border-left: 5px solid #b8860b;
-            margin: 20px auto;
-            max-width: 800px;
-            text-align: left;
-            font-style: italic;
-            color: #495057;
-        }
-
-        /* Family Tree Structure */
-        .family-tree {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             width: 100%;
+            height: auto;
         }
 
-        .tree-level {
+        /* Tree Levels */
+        .level {
             position: relative;
+            margin: 100px 0;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            gap: 60px;
-            margin: 80px 0;
-            width: 100%;
-        }
-
-        .tree-branch {
-            display: flex;
-            flex-direction: column;
             align-items: center;
-            position: relative;
+            flex-wrap: wrap;
+            gap: 80px;
         }
 
-        /* Person Cards */
-        .person-card {
+        .level-1 { margin-top: 50px; }
+        .level-2 { margin-top: 120px; }
+        .level-3 { margin-top: 140px; }
+        .level-4 { margin-top: 160px; }
+
+        /* Prophet Nodes */
+        .prophet-node {
             position: relative;
             background: linear-gradient(135deg, 
                 rgba(255,255,255,0.95) 0%, 
                 rgba(248,249,250,0.98) 50%, 
                 rgba(255,255,255,0.95) 100%);
-            border: 4px solid;
+            border: 3px solid;
+            border-image: linear-gradient(45deg, #b8860b, #1e3c72, #daa520) 1;
             border-radius: 20px;
-            padding: 30px;
-            min-width: 320px;
-            max-width: 420px;
+            padding: 25px;
+            min-width: 300px;
+            max-width: 400px;
             box-shadow: 
-                0 20px 40px rgba(0,0,0,0.15),
-                0 8px 16px rgba(0,0,0,0.1),
-                inset 0 2px 0 rgba(255,255,255,0.9),
-                inset 0 -1px 0 rgba(0,0,0,0.05);
-            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                0 15px 35px rgba(0,0,0,0.15),
+                0 5px 15px rgba(0,0,0,0.08),
+                inset 0 1px 0 rgba(255,255,255,0.8);
+            transition: all 0.4s ease;
             z-index: 10;
-            overflow: hidden;
         }
 
-        .person-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="cardPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="0.8" fill="rgba(184,134,11,0.08)"/></pattern></defs><rect width="100" height="100" fill="url(%23cardPattern)"/></svg>');
-            opacity: 0.6;
-            pointer-events: none;
-        }
-
-        .person-card:hover {
-            transform: translateY(-12px) scale(1.02);
+        .prophet-node:hover {
+            transform: translateY(-8px) scale(1.03);
             box-shadow: 
-                0 30px 60px rgba(0,0,0,0.25),
-                0 15px 30px rgba(0,0,0,0.15),
-                inset 0 2px 0 rgba(255,255,255,0.95);
+                0 25px 50px rgba(0,0,0,0.25),
+                0 10px 25px rgba(0,0,0,0.15),
+                inset 0 1px 0 rgba(255,255,255,0.9);
         }
 
-        /* Prophet Cards */
-        .prophet {
-            border-image: linear-gradient(45deg, #27ae60, #2ecc71, #27ae60, #229954) 1;
-            background: linear-gradient(135deg, #f8fff8 0%, #f0fff0 50%, #f8fff8 100%);
+        /* Special styling for key prophets */
+        .prophet-node.adam {
+            border-image: linear-gradient(45deg, #e74c3c, #c0392b, #e74c3c) 1;
+            background: linear-gradient(135deg, #fdf2f2 0%, #fef9f9 100%);
         }
 
-        /* Key Prophet Cards */
-        .key-prophet {
-            border-image: linear-gradient(45deg, #e74c3c, #c0392b, #e74c3c, #a93226) 1;
-            background: linear-gradient(135deg, #fef8f8 0%, #fdf2f2 50%, #fef8f8 100%);
+        .prophet-node.ibrahim {
+            border-image: linear-gradient(45deg, #27ae60, #229954, #27ae60) 1;
+            background: linear-gradient(135deg, #f2fdf4 0%, #f9fefb 100%);
         }
 
-        /* Final Prophet */
-        .final-prophet {
-            border-image: linear-gradient(45deg, #daa520, #b8860b, #ffd700, #daa520) 1;
-            background: linear-gradient(135deg, #fffbf0 0%, #fff8e1 50%, #fffbf0 100%);
+        .prophet-node.muhammad {
+            border-image: linear-gradient(45deg, #daa520, #b8860b, #ffd700) 1;
+            background: linear-gradient(135deg, #fffbf0 0%, #fff8e1 100%);
             box-shadow: 
-                0 25px 50px rgba(218,165,32,0.3),
-                0 12px 24px rgba(218,165,32,0.2),
-                inset 0 2px 0 rgba(255,255,255,0.95);
+                0 20px 40px rgba(218,165,32,0.3),
+                0 10px 20px rgba(218,165,32,0.15),
+                inset 0 1px 0 rgba(255,255,255,0.9);
         }
 
-        /* Patriarch Cards */
-        .patriarch {
-            border-image: linear-gradient(45deg, #3498db, #2980b9, #3498db, #1f618d) 1;
-            background: linear-gradient(135deg, #f8fbff 0%, #f0f8ff 50%, #f8fbff 100%);
-        }
-
-        /* Contemporary Figure Cards */
-        .contemporary {
-            border-image: linear-gradient(45deg, #9b59b6, #8e44ad, #9b59b6, #7d3c98) 1;
-            background: linear-gradient(135deg, #fdf8ff 0%, #f8f0ff 50%, #fdf8ff 100%);
-        }
-
-        /* Wife Cards */
-        .wife {
-            border-image: linear-gradient(45deg, #e91e63, #c2185b, #e91e63, #ad1457) 1;
-            background: linear-gradient(135deg, #fef8fb 0%, #fce4ec 50%, #fef8fb 100%);
-            min-width: 280px;
-        }
-
-        /* Person Information */
-        .person-name {
+        .prophet-name {
             font-family: 'Cinzel', serif;
             font-size: 1.8em;
             font-weight: 600;
             color: #1e3c72;
-            margin-bottom: 8px;
+            margin-bottom: 15px;
             text-align: center;
             position: relative;
-            z-index: 2;
+            padding-bottom: 10px;
         }
 
-        .person-name-arabic {
-            font-family: 'Scheherazade New', serif;
-            font-size: 1.5em;
+        .prophet-name::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(45deg, #b8860b, #daa520);
+            border-radius: 2px;
+        }
+
+        .prophet-name.arabic {
+            font-family: 'Amiri', serif;
+            font-size: 1.4em;
             color: #b8860b;
-            font-weight: 500;
-            margin: 8px 0;
-            text-align: center;
-            position: relative;
-            z-index: 2;
+            font-weight: 400;
+            margin-top: 5px;
         }
 
-        .person-title {
+        .prophet-title {
             font-family: 'Playfair Display', serif;
-            font-size: 1.2em;
+            font-size: 1.1em;
             color: #7d6608;
             text-align: center;
             font-style: italic;
             margin-bottom: 20px;
             font-weight: 500;
-            position: relative;
-            z-index: 2;
         }
 
-        .person-details {
+        .prophet-details {
             font-size: 1.1em;
-            line-height: 1.7;
+            line-height: 1.6;
             color: #2c3e50;
             margin-bottom: 15px;
-            position: relative;
-            z-index: 2;
         }
 
         .detail-row {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             display: flex;
             flex-wrap: wrap;
-            align-items: flex-start;
         }
 
         .detail-label {
             font-weight: 600;
             color: #1e3c72;
-            min-width: 90px;
-            margin-right: 12px;
-            font-family: 'Playfair Display', serif;
+            min-width: 80px;
+            margin-right: 10px;
         }
 
         .detail-value {
             color: #34495e;
             flex: 1;
-            line-height: 1.6;
         }
 
-        .person-summary {
-            background: linear-gradient(135deg, rgba(248,249,250,0.9) 0%, rgba(233,236,239,0.9) 100%);
-            padding: 18px;
+        .prophet-summary {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 15px;
             border-radius: 12px;
             border-left: 4px solid #27ae60;
             font-style: italic;
             color: #2c3e50;
-            margin-top: 18px;
-            box-shadow: inset 0 2px 4px rgba(0,0,0,0.08);
-            position: relative;
-            z-index: 2;
-            line-height: 1.6;
+            margin-top: 15px;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
         }
 
-        .relationships {
-            background: linear-gradient(135deg, rgba(241,248,255,0.9) 0%, rgba(227,242,253,0.9) 100%);
-            padding: 18px;
+        .children-list {
+            background: linear-gradient(135deg, #f1f8ff 0%, #e3f2fd 100%);
+            padding: 15px;
             border-radius: 12px;
             margin-top: 15px;
             border: 1px solid rgba(30,60,114,0.2);
-            position: relative;
-            z-index: 2;
         }
 
-        .relationship-title {
-            font-family: 'Cinzel', serif;
-            font-size: 1.2em;
-            color: #1e3c72;
-            font-weight: 600;
-            margin-bottom: 12px;
-            text-align: center;
-        }
-
-        .relationship-item {
+        .child-item {
             margin-bottom: 8px;
             padding-left: 25px;
             position: relative;
             color: #2c3e50;
-            line-height: 1.5;
         }
 
-        .relationship-item::before {
-            content: '◈';
+        .child-item::before {
+            content: '◆';
             position: absolute;
             left: 0;
             color: #3498db;
             font-weight: bold;
-            font-size: 1.1em;
+            font-size: 1.2em;
         }
 
-        /* Genealogical Connection Lines */
+        /* Tree Connecting Lines */
         .connection-line {
             position: absolute;
-            background: linear-gradient(45deg, #b8860b, #daa520, #b8860b);
+            background: linear-gradient(45deg, #b8860b, #1e3c72);
             z-index: 1;
+        }
+
+        /* Vertical lines */
+        .v-line {
+            width: 4px;
             border-radius: 2px;
-            box-shadow: 0 0 12px rgba(184,134,11,0.4);
+            box-shadow: 0 0 8px rgba(184,134,11,0.4);
         }
 
-        .vertical-line {
-            width: 5px;
+        /* Horizontal lines */
+        .h-line {
+            height: 4px;
+            border-radius: 2px;
+            box-shadow: 0 0 8px rgba(184,134,11,0.4);
         }
 
-        .horizontal-line {
-            height: 5px;
-        }
-
-        .marriage-line {
-            background: linear-gradient(45deg, #e91e63, #f06292);
-            width: 3px;
-            box-shadow: 0 0 8px rgba(233,30,99,0.4);
-        }
-
-        /* Branch Connection Points */
-        .connection-point {
+        /* Tree Branch Decorations */
+        .branch-decoration {
             position: absolute;
-            width: 24px;
-            height: 24px;
+            width: 20px;
+            height: 20px;
             background: radial-gradient(circle, #daa520 0%, #b8860b 70%);
             border-radius: 50%;
-            border: 3px solid #fff;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+            border: 2px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
             z-index: 5;
         }
 
-        /* Special connection for marriages */
-        .marriage-point {
-            background: radial-gradient(circle, #e91e63 0%, #c2185b 70%);
+        /* Specific Tree Layout */
+        .adam-level {
+            justify-content: center;
         }
 
-        /* Era Sections */
-        .era-section {
-            background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(248,249,250,0.9) 100%);
-            border: 2px solid rgba(30,60,114,0.1);
-            border-radius: 25px;
-            padding: 50px;
-            margin: 60px 0;
+        .patriarchs-level {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .ibrahim-descendants {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 60px;
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .final-messenger {
+            background: radial-gradient(ellipse at center, 
+                rgba(255,251,240,1) 0%, 
+                rgba(255,248,225,1) 50%, 
+                rgba(255,251,240,1) 100%);
+            padding: 40px;
+            border-radius: 30px;
+            border: 5px solid;
+            border-image: linear-gradient(45deg, #daa520, #b8860b, #ffd700, #daa520) 1;
             position: relative;
             overflow: hidden;
         }
 
-        .era-section::before {
+        .final-messenger::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="eraPattern" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="12.5" cy="12.5" r="0.5" fill="rgba(30,60,114,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23eraPattern)"/></svg>');
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="finalPattern" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="12.5" cy="12.5" r="1" fill="rgba(218,165,32,0.1)"/><path d="M12.5,0 L18.75,6.25 L12.5,12.5 L6.25,6.25 Z" fill="none" stroke="rgba(218,165,32,0.05)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23finalPattern)"/></svg>');
             opacity: 0.7;
             pointer-events: none;
         }
 
-        /* Contemporary Figures Grid */
-        .contemporaries-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            margin: 40px 0;
+        .wives-section, .children-section, .family-section {
+            background: rgba(255,255,255,0.6);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 15px 0;
+            border: 1px solid rgba(218,165,32,0.3);
+            position: relative;
         }
 
-        /* Wives Layout */
-        .wives-section {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin: 30px 0;
-        }
-
-        /* Footer */
-        .footer {
-            background: linear-gradient(135deg, #0d1b2a 0%, #1e3c72 25%, #415a77 50%, #b8860b 75%, #daa520 100%);
-            color: white;
-            padding: 80px 60px;
+        .section-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.3em;
+            color: #b8860b;
+            font-weight: 600;
+            margin-bottom: 15px;
             text-align: center;
-            border-top: 8px solid #daa520;
+            border-bottom: 2px solid rgba(218,165,32,0.3);
+            padding-bottom: 8px;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #b8860b 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+            border-top: 5px solid #daa520;
             position: relative;
             overflow: hidden;
         }
@@ -520,507 +409,467 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><defs><pattern id="footerPattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><g stroke="rgba(255,255,255,0.12)" stroke-width="1.2" fill="none"><circle cx="30" cy="30" r="8" /><path d="M30,0 L45,15 L30,30 L15,15 Z"/><circle cx="30" cy="30" r="2" fill="rgba(255,255,255,0.08)"/></g></pattern></defs><rect width="300" height="300" fill="url(%23footerPattern)"/></svg>');
-            opacity: 0.5;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="footerPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="2" fill="rgba(255,255,255,0.1)"/><path d="M25,0 L35,10 L25,20 L15,10 Z" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="200" height="200" fill="url(%23footerPattern)"/></svg>');
+            opacity: 0.4;
         }
 
         .quran-verse {
-            font-family: 'Scheherazade New', serif;
-            font-size: 2.2em;
-            font-weight: 500;
-            margin-bottom: 25px;
+            font-family: 'Amiri', serif;
+            font-size: 1.8em;
+            font-weight: 400;
+            margin-bottom: 20px;
             position: relative;
             z-index: 2;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            line-height: 1.8;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            line-height: 1.6;
         }
 
         .source-attribution {
-            font-size: 1.2em;
+            font-size: 1.1em;
             opacity: 0.9;
             position: relative;
             z-index: 2;
             font-style: italic;
-            line-height: 1.6;
         }
 
         /* Responsive Design */
-        @media (max-width: 1400px) {
-            .contemporaries-grid {
-                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            }
-        }
-
         @media (max-width: 1200px) {
-            .tree-level {
+            .ibrahim-descendants {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
                 gap: 40px;
             }
             
-            .person-card {
+            .prophet-node {
                 min-width: 280px;
             }
         }
 
         @media (max-width: 768px) {
             .header h1 {
-                font-size: 3em;
+                font-size: 2.5em;
             }
             
-            .generation-title {
-                font-size: 2.2em;
+            .level {
+                gap: 40px;
             }
             
-            .tree-level {
-                gap: 30px;
-            }
-            
-            .person-card {
+            .prophet-node {
                 min-width: 260px;
-                margin: 15px 10px;
+                margin: 20px 10px;
             }
             
-            .genealogy-container {
-                padding: 60px 20px;
+            .tree-container {
+                padding: 40px 15px;
             }
         }
 
         @media print {
-            body, .container {
+            body {
                 background: white !important;
-                box-shadow: none !important;
             }
             
-            body::before, .container::before {
+            body::before {
                 display: none !important;
             }
             
-            .person-card:hover {
+            .container {
+                box-shadow: none !important;
+                background: white !important;
+            }
+            
+            .prophet-node:hover {
                 transform: none !important;
             }
             
-            .genealogy-container {
+            .tree-container {
                 min-height: auto !important;
             }
         }
 
-        /* Animation Sequences */
-        @keyframes fadeInScale {
+        /* Animation for tree nodes */
+        @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: scale(0.8) translateY(30px);
+                transform: translateY(30px);
             }
             to {
                 opacity: 1;
-                transform: scale(1) translateY(0);
+                transform: translateY(0);
             }
         }
 
-        .person-card {
-            animation: fadeInScale 0.8s ease forwards;
+        .prophet-node {
+            animation: fadeInUp 0.6s ease forwards;
         }
 
-        .person-card:nth-child(2) { animation-delay: 0.2s; }
-        .person-card:nth-child(3) { animation-delay: 0.4s; }
-        .person-card:nth-child(4) { animation-delay: 0.6s; }
-        .person-card:nth-child(5) { animation-delay: 0.8s; }
-        .person-card:nth-child(6) { animation-delay: 1s; }
+        .prophet-node:nth-child(2) { animation-delay: 0.2s; }
+        .prophet-node:nth-child(3) { animation-delay: 0.4s; }
+        .prophet-node:nth-child(4) { animation-delay: 0.6s; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>شجرة الأنبياء والأنساب المقدسة</h1>
+            <h1>شجرة الأنبياء المباركة</h1>
             <div class="subtitle">
-                The Complete Sacred Genealogy & Prophetic Lineage<br>
-                <span style="font-size: 0.8em; opacity: 0.85;">From Adam to Muhammad - Peace Be Upon Them All</span><br>
-                <span style="font-size: 0.7em; font-weight: 400; opacity: 0.8;">Including Wives, Contemporaries & Prominent Figures • Based on Quran & Authentic Hadith</span>
+                The Sacred Prophetic Lineage: From Adam to Muhammad<br>
+                <span style="font-size: 0.9em; opacity: 0.8;">Peace Be Upon Them All</span><br>
+                <span style="font-size: 0.8em; font-weight: 300;">Based on Quran & Sahih Hadith</span>
             </div>
         </div>
         
-        <div class="genealogy-container">
-            <!-- FIRST GENERATION: THE ORIGIN OF HUMANITY -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">First Generation</div>
-                    <div class="generation-subtitle">The Origin of Humanity & First Revelation</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> The beginning of human existence on Earth. Adam and Hawwa were created in Paradise, given knowledge, and then sent to Earth to establish humanity. This marks the start of divine guidance through prophets.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="family-tree">
-                        <div class="tree-level">
-                            <!-- Adam - The First Human and Prophet -->
-                            <div class="tree-branch">
-                                <div class="person-card key-prophet">
-                                    <div class="person-name">Adam</div>
-                                    <div class="person-name-arabic">آدم عليه السلام</div>
-                                    <div class="person-title">First Prophet • First Human • Father of Humanity</div>
-                                    <div class="person-summary">
-                                    Son of Adam and Hawwa. Known for righteousness and offering acceptable sacrifices to Allah. Murdered by his jealous brother Qabil, becoming the first martyr in human history. His story teaches about righteousness, jealousy, and divine justice.
-                                </div>
+        <div class="tree-container">
+            <div class="tree">
+                <!-- Level 1: Adam - The Beginning -->
+                <div class="level level-1 adam-level">
+                    <div class="prophet-node adam">
+                        <div class="prophet-name">Adam (آدم)</div>
+                        <div class="prophet-name arabic">أبو البشر</div>
+                        <div class="prophet-title">First Prophet • Father of Humanity</div>
+                        <div class="prophet-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Wife:</span>
+                                <span class="detail-value">Hawwa (Eve/حواء)</span>
                             </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Qabil</div>
-                                <div class="person-name-arabic">قابيل</div>
-                                <div class="person-title">The Transgressor • First Murderer</div>
-                                <div class="person-summary">
-                                    Son of Adam and Hawwa. Became jealous when his sacrifice was not accepted while his brother's was. Committed the first murder in human history by killing Habil. His story serves as a warning about jealousy, anger, and transgression.
-                                </div>
-                            </div>
-
-                            <div class="person-card prophet">
-                                <div class="person-name">'Isa</div>
-                                <div class="person-name-arabic">عيسى عليه السلام</div>
-                                <div class="person-title">Prophet & Messenger • The Messiah • Word of Allah</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mother:</span>
-                                        <span class="detail-value">Maryam (Virgin Mary)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Birth:</span>
-                                        <span class="detail-value">Miraculous virgin birth by Allah's command</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Scripture:</span>
-                                        <span class="detail-value">Injil (Gospel)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Miracles:</span>
-                                        <span class="detail-value">Healing sick, raising dead, creating birds from clay</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Status:</span>
-                                        <span class="detail-value">Ascended alive to heaven, will return</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Final prophet to the Children of Israel, born miraculously to Virgin Maryam without a father. Given the Gospel (Injil) and performed extraordinary miracles including healing the sick, raising the dead, and creating birds from clay. Rejected by most of his people, he was raised alive to heaven and will return before the Day of Judgment as a sign of the end times.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Unique Status</div>
-                                    <div class="relationship-item">Born without father by divine word "Be"</div>
-                                    <div class="relationship-item">Spoke as infant defending his mother</div>
-                                    <div class="relationship-item">Performed life-giving miracles</div>
-                                    <div class="relationship-item">Ascended alive, will return as sign of Hour</div>
-                                    <div class="relationship-item">Will descend, kill Dajjal, establish justice</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">The Disciples</div>
-                                <div class="person-name-arabic">الحواريون</div>
-                                <div class="person-title">Al-Hawariyyun • The Pure Ones</div>
-                                <div class="person-summary">
-                                    The twelve chosen disciples of 'Isa who believed in his message and supported his mission. Known as "Al-Hawariyyun" (the pure white ones) for their sincere faith. They requested the miracle of the heavenly table (Ma'idah) and were among the few who truly accepted 'Isa's divine mission among the Israelites.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Role</div>
-                                    <div class="relationship-item">Closest supporters of 'Isa</div>
-                                    <div class="relationship-item">Witnessed the heavenly table miracle</div>
-                                    <div class="relationship-item">Spread his teachings after ascension</div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="prophet-summary">
+                            Created by Allah from clay, given knowledge of all names, first to receive divine revelation. Father of all humanity. Resided in Paradise before being sent to Earth as the first human and first prophet.
+                        </div>
+                        <div class="children-list">
+                            <div class="section-title">Children</div>
+                            <div class="child-item"><strong>Habil (Abel/هابيل)</strong> - The righteous son, first martyr</div>
+                            <div class="child-item"><strong>Qabil (Cain/قابيل)</strong> - First to commit murder</div>
+                            <div class="child-item"><strong>Shith (Seth/شيث)</strong> - Prophet, successor to Adam</div>
+                            <div class="child-item">Many other children according to Islamic tradition</div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- TENTH GENERATION: THE FINAL MESSENGER -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">The Final Revelation</div>
-                    <div class="generation-subtitle">Muhammad ﷺ - Seal of Prophets & Universal Messenger</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> Six centuries after 'Isa, in the Arabian Peninsula where the descendants of Isma'il had preserved elements of Ibrahim's monotheism, Allah sent the final messenger to all humanity. Muhammad ﷺ came with the Quran as the eternal miracle, completing and perfecting the divine message for all time and all peoples.
+                <!-- Connection Line Down -->
+                <div class="connection-line v-line" style="left: 50%; top: 320px; height: 100px; transform: translateX(-50%);"></div>
+                <div class="branch-decoration" style="left: 50%; top: 410px; transform: translateX(-50%);"></div>
+
+                <!-- Level 2: Early Prophets -->
+                <div class="level level-2">
+                    <div class="prophet-node">
+                        <div class="prophet-name">Shith (شيث)</div>
+                        <div class="prophet-title">Prophet • Successor to Adam</div>
+                        <div class="prophet-summary">
+                            Third son of Adam, appointed as prophet after Abel's death. Continued Adam's message and guidance to early humanity. Received divine scrolls and established righteous communities.
+                        </div>
+                    </div>
+
+                    <div class="prophet-node">
+                        <div class="prophet-name">Idris (إدريس)</div>
+                        <div class="prophet-title">Prophet • Raised to High Station</div>
+                        <div class="prophet-summary">
+                            Early prophet mentioned in Quran, raised to high station by Allah. Known for his knowledge, righteousness, and scholarship. Some identify him with Enoch from biblical tradition.
+                        </div>
+                    </div>
+
+                    <div class="prophet-node">
+                        <div class="prophet-name">Nuh (نوح)</div>
+                        <div class="prophet-title">Prophet & Messenger • Builder of the Ark</div>
+                        <div class="prophet-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Wife:</span>
+                                <span class="detail-value">Righteous believer (previous wife among disbelievers)</span>
+                            </div>
+                        </div>
+                        <div class="prophet-summary">
+                            Sent to guide his people for 950 years. Built the ark by Allah's command during the great flood. Saved believers and pairs of animals, establishing a new chapter for humanity.
+                        </div>
+                        <div class="children-list">
+                            <div class="child-item"><strong>Sham</strong> - Ancestor of Semitic peoples</div>
+                            <div class="child-item"><strong>Ham</strong> - Ancestor of African peoples</div>
+                            <div class="child-item"><strong>Yafith</strong> - Ancestor of European peoples</div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="era-section final-messenger">
-                    <div class="family-tree">
-                        <!-- Muhammad's Noble Lineage -->
-                        <div class="tree-level">
-                            <div class="person-card final-prophet">
-                                <div class="person-name">Muhammad ﷺ</div>
-                                <div class="person-name-arabic">محمد رسول الله ﷺ</div>
-                                <div class="person-title">Final Prophet & Messenger • Seal of Prophets • Mercy to All Worlds</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Lineage:</span>
-                                        <span class="detail-value">Quraysh tribe, descendant of Isma'il ibn Ibrahim</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Father:</span>
-                                        <span class="detail-value">'Abdullah ibn 'Abdul-Muttalib (died before birth)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mother:</span>
-                                        <span class="detail-value">Aminah bint Wahb (died when he was 6)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Grandfather:</span>
-                                        <span class="detail-value">'Abdul-Muttalib (guardian after father's death)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Uncle:</span>
-                                        <span class="detail-value">Abu Talib (guardian after grandfather's death)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Known as:</span>
-                                        <span class="detail-value">Al-Amin (The Trustworthy) before prophethood</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    The final messenger sent to all humanity with the Quran as the eternal miracle and complete guidance. Descendant of Isma'il through the noble Quraysh tribe. Known as "Al-Amin" (The Trustworthy) even before his prophetic call. Established the perfect Islamic community in Madinah, completed and perfected the religion. The Seal of Prophets - no messenger will come after him until the Day of Judgment.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Universal Mission</div>
-                                    <div class="relationship-item">Final messenger to all humanity</div>
-                                    <div class="relationship-item">Received Quran as eternal miracle</div>
-                                    <div class="relationship-item">Completed and perfected religion</div>
-                                    <div class="relationship-item">Model for all aspects of human life</div>
-                                    <div class="relationship-item">Mercy to all the worlds</div>
-                                </div>
+                <!-- Major Connection Line -->
+                <div class="connection-line v-line" style="left: 50%; top: 800px; height: 150px; transform: translateX(-50%);"></div>
+                <div class="branch-decoration" style="left: 50%; top: 940px; transform: translateX(-50%);"></div>
+
+                <!-- Level 3: Ibrahim and the Great Patriarchs -->
+                <div class="level level-3 patriarchs-level">
+                    <div class="prophet-node ibrahim">
+                        <div class="prophet-name">Ibrahim (إبراهيم)</div>
+                        <div class="prophet-name arabic">خليل الله</div>
+                        <div class="prophet-title">Prophet & Messenger • Friend of Allah</div>
+                        <div class="prophet-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Wives:</span>
+                            </div>
+                            <div style="margin-left: 20px; margin-top: 8px;">
+                                <div><strong>Sarah (سارة)</strong> - Mother of Ishaq</div>
+                                <div><strong>Hajar (هاجر)</strong> - Mother of Isma'il</div>
+                            </div>
+                        </div>
+                        <div class="prophet-summary">
+                            Called "Khalilullah" (Friend of Allah). Broke the idols of his people, survived being thrown into fire by Nimrod. Built the sacred Ka'bah with Isma'il. Father of the prophetic nations and establisher of monotheism.
+                        </div>
+                        <div class="children-list">
+                            <div class="section-title">Sons - Both Prophets</div>
+                            <div class="child-item"><strong>Isma'il (إسماعيل)</strong> - Ancestor of Arabs, helped build Ka'bah</div>
+                            <div class="child-item"><strong>Ishaq (إسحاق)</strong> - Ancestor of Israelites, father of Ya'qub</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Branching Lines for Ibrahim's Descendants -->
+                <div class="connection-line h-line" style="top: 1300px; left: 25%; width: 50%; transform: translateY(-50%);"></div>
+                <div class="connection-line v-line" style="left: 30%; top: 1280px; height: 100px;"></div>
+                <div class="connection-line v-line" style="left: 70%; top: 1280px; height: 100px;"></div>
+                <div class="branch-decoration" style="left: 30%; top: 1370px; transform: translateX(-50%);"></div>
+                <div class="branch-decoration" style="left: 70%; top: 1370px; transform: translateX(-50%);"></div>
+
+                <!-- Level 4: Ibrahim's Sons and Their Lines -->
+                <div class="level level-4">
+                    <div class="ibrahim-descendants">
+                        <!-- Isma'il's Line -->
+                        <div class="prophet-node">
+                            <div class="prophet-name">Isma'il (إسماعيل)</div>
+                            <div class="prophet-title">Prophet • Ancestor of Arabs</div>
+                            <div class="prophet-summary">
+                                Son of Ibrahim and Hajar. Helped build the sacred Ka'bah in Makkah. Ancestor of Arab tribes including Quraysh, the tribe of Prophet Muhammad. Known for patience and complete obedience to Allah.
+                            </div>
+                            <div class="children-list">
+                                <div class="child-item">Ancestor of Arab tribes</div>
+                                <div class="child-item">Including Quraysh (Muhammad's tribe)</div>
+                                <div class="child-item">Builder of Ka'bah with his father</div>
                             </div>
                         </div>
 
-                        <!-- The Mothers of Believers -->
-                        <div class="tree-level">
-                            <div style="text-align: center; margin: 40px 0;">
-                                <div class="generation-subtitle" style="color: #e91e63; font-size: 1.8em;">أمهات المؤمنين - The Mothers of the Believers</div>
+                        <!-- Ishaq's Line -->
+                        <div class="prophet-node">
+                            <div class="prophet-name">Ishaq (إسحاق)</div>
+                            <div class="prophet-title">Prophet • Father of Ya'qub</div>
+                            <div class="prophet-summary">
+                                Son of Ibrahim and Sarah. Miracle birth in their old age as promised by Allah. Father of Ya'qub (Israel). Ancestor of the Israelite prophets and the twelve tribes of Israel.
+                            </div>
+                            <div class="children-list">
+                                <div class="child-item"><strong>Ya'qub (Israel)</strong> - Father of 12 tribes</div>
+                                <div class="child-item">Ancestor of Israelite prophets</div>
                             </div>
                         </div>
 
-                        <div class="wives-section" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
-                            <div class="person-card wife">
-                                <div class="person-name">Khadijah</div>
-                                <div class="person-name-arabic">خديجة بنت خويلد</div>
-                                <div class="person-title">First Wife • First Believer • Mother of Most Children</div>
-                                <div class="person-summary">
-                                    Noble merchant woman, first wife and first believer. Supported Muhammad ﷺ through early revelations and difficulties. Mother of all his children except Ibrahim. Known as "Tahira" (Pure). Died before Hijra, remembered as the greatest support in establishing Islam.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Children with Prophet ﷺ</div>
-                                    <div class="relationship-item">Al-Qasim (son, died in infancy)</div>
-                                    <div class="relationship-item">'Abdullah (son, died in infancy)</div>
-                                    <div class="relationship-item">Zaynab (daughter)</div>
-                                    <div class="relationship-item">Ruqayyah (daughter)</div>
-                                    <div class="relationship-item">Umm Kulthum (daughter)</div>
-                                    <div class="relationship-item">Fatimah az-Zahra (daughter)</div>
+                        <!-- Ya'qub and His Sons -->
+                        <div class="prophet-node">
+                            <div class="prophet-name">Ya'qub (يعقوب)</div>
+                            <div class="prophet-name arabic">إسرائيل</div>
+                            <div class="prophet-title">Prophet • Israel • Father of 12 Tribes</div>
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Wives:</span>
+                                    <span class="detail-value">Raheel, Lea, and others</span>
                                 </div>
                             </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">'A'ishah</div>
-                                <div class="person-name-arabic">عائشة بنت أبي بكر</div>
-                                <div class="person-title">The Beloved • Scholar • Daughter of Abu Bakr</div>
-                                <div class="person-summary">
-                                    Daughter of Abu Bakr, youngest wife, most beloved after Khadijah. Exceptional scholar who transmitted over 2000 hadiths. Known for intelligence, wit, and deep knowledge of Islamic law. Teacher of early Muslim community, especially women's issues.
-                                </div>
+                            <div class="prophet-summary">
+                                Son of Ishaq, grandson of Ibrahim. Father of twelve sons who became the twelve tribes of Israel. Given the title "Israel" by Allah. Known for his patience during separation from Yusuf.
                             </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Hafsah</div>
-                                <div class="person-name-arabic">حفصة بنت عمر</div>
-                                <div class="person-title">Keeper of Quran • Daughter of 'Umar</div>
-                                <div class="person-summary">
-                                    Daughter of 'Umar ibn al-Khattab. Widow of martyr from Uhud. Known for her literacy and was entrusted with the master copy of the Quran. Strong personality, defender of women's rights, and active in preserving Islamic knowledge.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Zaynab bint Khuzaymah</div>
-                                <div class="person-name-arabic">زينب بنت خزيمة</div>
-                                <div class="person-title">Mother of the Poor</div>
-                                <div class="person-summary">
-                                    Known as "Umm al-Masakin" (Mother of the Poor) for her exceptional charity and care for the needy. Widow of martyr from Uhud. Though married to the Prophet ﷺ for only short time before her death, she left lasting legacy of compassion.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Umm Salamah</div>
-                                <div class="person-name-arabic">أم سلمة هند</div>
-                                <div class="person-title">The Wise Counselor</div>
-                                <div class="person-summary">
-                                    Hind bint Abi Umayyah, among earliest Muslims and emigrants to Abyssinia. Widow of Abu Salamah. Known for exceptional wisdom, intelligence, and counsel. The Prophet ﷺ often sought her advice on important matters, especially regarding women and family issues.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Zaynab bint Jahsh</div>
-                                <div class="person-name-arabic">زينب بنت جحش</div>
-                                <div class="person-title">Cousin of Prophet • The Generous</div>
-                                <div class="person-summary">
-                                    Cousin of Prophet ﷺ whose marriage established important social reforms regarding adoption. Known for her generosity, skill in handicrafts, and charitable works. Her marriage was announced directly in the Quran, giving her unique distinction.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Juwayriyah</div>
-                                <div class="person-name-arabic">جويرية بنت الحارث</div>
-                                <div class="person-title">Bringer of Peace</div>
-                                <div class="person-summary">
-                                    Daughter of chief of Banu Mustaliq tribe. Her marriage brought peace with her entire tribe and led to freeing of many captives. Known for her devotion to worship, spending long hours in prayer and remembrance of Allah.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Umm Habibah</div>
-                                <div class="person-name-arabic">أم حبيبة رملة</div>
-                                <div class="person-title">Symbol of Reconciliation</div>
-                                <div class="person-summary">
-                                    Ramlah, daughter of Abu Sufyan (former enemy of Islam). Early Muslim who emigrated to Abyssinia. Her marriage symbolized reconciliation and showed Islam's power to unite former enemies. Maintained dignity despite family opposition to Islam.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Safiyyah</div>
-                                <div class="person-name-arabic">صفية بنت حيي</div>
-                                <div class="person-title">From Noble Jewish Family</div>
-                                <div class="person-summary">
-                                    Daughter of Huyayy ibn Akhtab, chief of Jewish Banu Nadir tribe. Descendant of Prophet Harun (Aaron). Her marriage promoted unity between Jewish and Arab communities and demonstrated Islam's inclusive nature.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Maymunah</div>
-                                <div class="person-name-arabic">ميمونة بنت الحارث</div>
-                                <div class="person-title">The Last Wife • The Blessed</div>
-                                <div class="person-summary">
-                                    Last woman to marry the Prophet ﷺ. Sister-in-law of 'Abbas, the Prophet's uncle. Known for her piety, devotion, and the blessed nature of her marriage which was celebrated during Umrah. Lived long after Prophet's death, transmitting his teachings.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Sawdah</div>
-                                <div class="person-name-arabic">سودة بنت زمعة</div>
-                                <div class="person-title">Second Wife • Caretaker</div>
-                                <div class="person-summary">
-                                    Second wife, married after Khadijah's death. Elderly widow who helped care for the Prophet's daughters. Known for her sense of humor, loyalty, and motherly care for the household. Sacrificed her time with Prophet ﷺ to 'A'ishah out of love.
-                                </div>
+                            <div class="children-list">
+                                <div class="section-title">The Twelve Sons</div>
+                                <div class="child-item"><strong>Yusuf (يوسف)</strong> - Prophet, ruler of Egypt</div>
+                                <div class="child-item"><strong>Binyamin (بنيامين)</strong> - Beloved youngest brother</div>
+                                <div class="child-item"><strong>Yahuda (يهوذا)</strong> - Tribe of Judah</div>
+                                <div class="child-item"><strong>Ruubeel (روبيل)</strong> - Eldest son</div>
+                                <div class="child-item">And eight other sons forming the twelve tribes</div>
                             </div>
                         </div>
 
-                        <!-- The Blessed Children -->
-                        <div class="tree-level" style="margin-top: 80px;">
-                            <div style="text-align: center; margin: 40px 0;">
-                                <div class="generation-subtitle" style="color: #27ae60; font-size: 1.8em;">The Blessed Children of the Prophet ﷺ</div>
+                        <!-- Yusuf's Story -->
+                        <div class="prophet-node">
+                            <div class="prophet-name">Yusuf (يوسف)</div>
+                            <div class="prophet-title">Prophet • The Truthful • Ruler of Egypt</div>
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Wife:</span>
+                                    <span class="detail-value">Zulaikha (later became righteous)</span>
+                                </div>
+                            </div>
+                            <div class="prophet-summary">
+                                Son of Ya'qub, sold into slavery by jealous brothers. Rose to become ruler of Egypt through divine dream interpretation. Reunited with family and forgave his brothers. Known for extraordinary beauty, wisdom, and patience through trials.
                             </div>
                         </div>
 
-                        <div class="contemporaries-grid">
-                            <div class="person-card contemporary">
-                                <div class="person-name">Fatimah az-Zahra</div>
-                                <div class="person-name-arabic">فاطمة الزهراء</div>
-                                <div class="person-title">Most Beloved Daughter • Leader of Women of Paradise</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mother:</span>
-                                        <span class="detail-value">Khadijah</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Husband:</span>
-                                        <span class="detail-value">'Ali ibn Abi Talib (cousin of Prophet)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Children:</span>
-                                        <span class="detail-value">Al-Hasan, Al-Husayn, Zaynab, Umm Kulthum</span>
-                                    </div>
+                        <!-- Moses Line -->
+                        <div class="prophet-node">
+                            <div class="prophet-name">Musa (موسى)</div>
+                            <div class="prophet-title">Prophet & Messenger • Speaker with Allah</div>
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Wife:</span>
+                                    <span class="detail-value">Daughter of Shu'ayb</span>
                                 </div>
-                                <div class="person-summary">
-                                    Most beloved daughter of Prophet ﷺ, called "Az-Zahra" (The Radiant). Wife of 'Ali ibn Abi Talib and mother of Al-Hasan and Al-Husayn. One of four most perfect women in Islamic tradition. Leader of women in Paradise. Known for her purity, devotion, and resemblance to her father in character.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Honor</div>
-                                    <div class="relationship-item">One of four most perfect women</div>
-                                    <div class="relationship-item">Leader of women of Paradise</div>
-                                    <div class="relationship-item">Mother of Prophet's grandsons</div>
-                                    <div class="relationship-item">Part of Ahl al-Bayt (People of the House)</div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Brother:</span>
+                                    <span class="detail-value">Harun (Aaron) - Prophet and helper</span>
                                 </div>
                             </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">The Other Daughters</div>
-                                <div class="person-name-arabic">البنات الأخريات</div>
-                                <div class="person-title">Zaynab, Ruqayyah, Umm Kulthum</div>
-                                <div class="person-summary">
-                                    The other three daughters of Prophet ﷺ from Khadijah: Zaynab (married Abu al-'As), Ruqayyah (married 'Uthman), and Umm Kulthum (also married 'Uthman after Ruqayyah's death). All were righteous women who supported Islam despite persecution and hardship.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">The Sons</div>
-                                <div class="person-name-arabic">الأبناء</div>
-                                <div class="person-title">Al-Qasim, 'Abdullah, Ibrahim</div>
-                                <div class="person-summary">
-                                    The Prophet's sons: Al-Qasim and 'Abdullah (also called at-Tayyib and at-Tahir) from Khadijah, and Ibrahim from Mariyah al-Qibtiyyah. All died in infancy as decreed by Allah, fulfilling that Muhammad ﷺ would be the seal of prophets with no prophetic male descendants.
-                                </div>
+                            <div class="prophet-summary">
+                                Saved from Pharaoh as a baby, raised in the palace. Received the Torah and Ten Commandments on Mount Sinai. Led the Israelites out of Egypt through the miraculous parting of the Red Sea. Known for direct communication with Allah.
                             </div>
                         </div>
 
-                        <!-- Key Family Members -->
-                        <div class="tree-level" style="margin-top: 60px;">
-                            <div style="text-align: center; margin: 40px 0;">
-                                <div class="generation-subtitle" style="color: #3498db; font-size: 1.8em;">أهل البيت والأصحاب - Ahl al-Bayt & Key Companions</div>
+                        <!-- Harun -->
+                        <div class="prophet-node">
+                            <div class="prophet-name">Harun (هارون)</div>
+                            <div class="prophet-title">Prophet • High Priest • Helper of Musa</div>
+                            <div class="prophet-summary">
+                                Brother of Musa, served as his assistant and spokesman to Pharaoh. First high priest of the Israelites. Known for his eloquence and unwavering support of his brother's divine mission.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Royal Prophets Section -->
+                <div class="connection-line v-line" style="left: 50%; top: 1800px; height: 120px; transform: translateX(-50%);"></div>
+                <div class="branch-decoration" style="left: 50%; top: 1910px; transform: translateX(-50%);"></div>
+
+                <div class="level">
+                    <div class="ibrahim-descendants">
+                        <div class="prophet-node">
+                            <div class="prophet-name">Dawud (داوود)</div>
+                            <div class="prophet-title">Prophet & King • Psalmist</div>
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Wives:</span>
+                                    <span class="detail-value">Multiple wives including mother of Sulayman</span>
+                                </div>
+                            </div>
+                            <div class="prophet-summary">
+                                King and prophet of Israel. Given the Zabur (Psalms) with beautiful divine hymns. Defeated the giant Goliath (Jalut) with a sling. Known for his melodious voice in worship and just rule over his kingdom.
+                            </div>
+                            <div class="children-list">
+                                <div class="child-item"><strong>Sulayman (سليمان)</strong> - Prophet and King</div>
                             </div>
                         </div>
 
-                        <div class="contemporaries-grid">
-                            <div class="person-card contemporary patriarch">
-                                <div class="person-name">'Ali ibn Abi Talib</div>
-                                <div class="person-name-arabic">علي بن أبي طالب</div>
-                                <div class="person-title">Cousin • Son-in-law • Fourth Caliph</div>
-                                <div class="person-summary">
-                                    Cousin of Prophet ﷺ, first male to accept Islam as a child. Husband of Fatimah and father of Al-Hasan and Al-Husayn. Fourth Rightly-Guided Caliph. Known for his courage in battle, wisdom in judgment, and deep knowledge of Islam. Part of Ahl al-Bayt.
+                        <div class="prophet-node">
+                            <div class="prophet-name">Sulayman (سليمان)</div>
+                            <div class="prophet-title">Prophet & King • Master of Jinn and Animals</div>
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Notable Wife:</span>
+                                    <span class="detail-value">Queen of Sheba (Bilqis)</span>
+                                </div>
+                            </div>
+                            <div class="prophet-summary">
+                                Son of Dawud. Given dominion over jinn, animals, and wind by Allah. Built the magnificent Temple in Jerusalem. Known for unparalleled wisdom, immense wealth, and the most glorious kingdom in history.
+                            </div>
+                        </div>
+
+                        <div class="prophet-node">
+                            <div class="prophet-name">Zakariya (زكريا)</div>
+                            <div class="prophet-title">Prophet • Guardian of Maryam</div>
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Wife:</span>
+                                    <span class="detail-value">Ishba (Elizabeth)</span>
+                                </div>
+                            </div>
+                            <div class="prophet-summary">
+                                Guardian of the blessed Maryam (Mary). Given the miracle son Yahya in his old age as a sign from Allah. Known for his devotion and care of the holy sanctuary.
+                            </div>
+                            <div class="children-list">
+                                <div class="child-item"><strong>Yahya (يحيى)</strong> - Prophet, John the Baptist</div>
+                            </div>
+                        </div>
+
+                        <div class="prophet-node">
+                            <div class="prophet-name">Yahya (يحيى)</div>
+                            <div class="prophet-title">Prophet • John the Baptist • The Forerunner</div>
+                            <div class="prophet-summary">
+                                Son of Zakariya, cousin of 'Isa (Jesus). First to recognize and confirm 'Isa's prophethood. Known for exceptional piety, chastity, and asceticism from his youth. Preached repentance and preparation for 'Isa's mission.
+                            </div>
+                        </div>
+
+                        <div class="prophet-node">
+                            <div class="prophet-name">'Isa (عيسا)</div>
+                            <div class="prophet-title">Prophet & Messenger • The Messiah</div>
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Mother:</span>
+                                    <span class="detail-value">Maryam (Mary/مريم) - Most virtuous woman</span>
+                                </div>
+                            </div>
+                            <div class="prophet-summary">
+                                Born miraculously without a father through Allah's command. Given the Gospel (Injil) and performed many miracles including healing the sick and raising the dead. Ascended to heaven alive and will return before the Day of Judgment.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Final Connection to Muhammad -->
+                <div class="connection-line v-line" style="left: 50%; top: 2400px; height: 150px; transform: translateX(-50%);"></div>
+                <div class="branch-decoration" style="left: 50%; top: 2540px; transform: translateX(-50%);"></div>
+
+                <!-- The Final Messenger - Special Section -->
+                <div class="level">
+                    <div class="final-messenger">
+                        <div class="prophet-node muhammad">
+                            <div class="prophet-name">Muhammad (محمد)</div>
+                            <div class="prophet-name arabic">رسول الله ﷺ</div>
+                            <div class="prophet-title">Final Prophet & Messenger • Seal of Prophets • The Chosen One</div>
+                            
+                            <div class="prophet-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Lineage:</span>
+                                    <span class="detail-value">Quraysh tribe, descended from Isma'il ibn Ibrahim</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Father:</span>
+                                    <span class="detail-value">'Abdullah ibn 'Abdul-Muttalib (died before birth)</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Mother:</span>
+                                    <span class="detail-value">Aminah bint Wahb (died when Muhammad was 6)</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Guardians:</span>
+                                    <span class="detail-value">'Abdul-Muttalib (grandfather), then Abu Talib (uncle)</span>
                                 </div>
                             </div>
 
-                            <div class="person-card contemporary">
-                                <div class="person-name">Al-Hasan</div>
-                                <div class="person-name-arabic">الحسن</div>
-                                <div class="person-title">Grandson • Leader of Youth of Paradise</div>
-                                <div class="person-summary">
-                                    Eldest grandson of Prophet ﷺ through Fatimah and 'Ali. Known for his resemblance to the Prophet ﷺ and his noble character. Briefly served as Caliph before abdicating to unite the Muslim community. Leader of the youth of Paradise.
+                            <div class="wives-section">
+                                <div class="section-title">The Mothers of Believers (أمهات المؤمنين)</div>
+                                <div class="child-item"><strong>Khadijah bint Khuwaylid (خديجة)</strong> - First wife, first believer, mother of most children. Supported him through early revelations.</div>
+                                <div class="child-item"><strong>'A'ishah bint Abi Bakr (عائشة)</strong> - Daughter of Abu Bakr, youngest wife, scholar and narrator of hadith.</div>
+                                <div class="child-item"><strong>Hafsah bint 'Umar (حفصة)</strong> - Daughter of 'Umar ibn al-Khattab, keeper of Quran manuscripts.</div>
+                                <div class="child-item"><strong>Zaynab bint Khuzaymah (زينب)</strong> - Known as "Mother of the Poor" for her charity.</div>
+                                <div class="child-item"><strong>Umm Salamah Hind (أم سلمة)</strong> - Wise counselor, known for her intelligence.</div>
+                                <div class="child-item"><strong>Zaynab bint Jahsh (زينب)</strong> - Cousin of the Prophet, marriage established social reforms.</div>
+                                <div class="child-item"><strong>Juwayriyah bint al-Harith (جويرية)</strong> - Her marriage brought peace with Banu Mustaliq tribe.</div>
+                                <div class="child-item"><strong>Umm Habibah Ramlah (أم حبيبة)</strong> - Daughter of Abu Sufyan, symbol of reconciliation.</div>
+                                <div class="child-item"><strong>Safiyyah bint Huyayy (صفية)</strong> - From noble Jewish family, promoted unity.</div>
+                                <div class="child-item"><strong>Maymunah bint al-Harith (ميمونة)</strong> - Last wife married, known for piety.</div>
+                                <div class="child-item"><strong>Sawdah bint Zam'ah (سودة)</strong> - Second wife, helped raise the Prophet's children.</div>
+                            </div>
+
+                            <div class="children-section">
+                                <div class="section-title">The Blessed Children</div>
+                                <div class="child-item"><strong>Sons:</strong> Al-Qasim (القاسم), 'Abdullah (عبد الله) [also called at-Tayyib, at-Tahir], Ibrahim (إبراهيم) - all died in infancy</div>
+                                <div class="child-item"><strong>Daughters (all from Khadijah):</strong></div>
+                                <div style="margin-left: 20px;">
+                                    <div class="child-item"><strong>Zaynab (زينب)</strong> - Eldest daughter, married to Abu al-'As</div>
+                                    <div class="child-item"><strong>Ruqayyah (رقية)</strong> - Married to 'Uthman ibn 'Affan</div>
+                                    <div class="child-item"><strong>Umm Kulthum (أم كلثوم)</strong> - Also married to 'Uthman after Ruqayyah</div>
+                                    <div class="child-item"><strong>Fatimah az-Zahra (فاطمة الزهراء)</strong> - Most beloved daughter, married to 'Ali</div>
                                 </div>
                             </div>
 
-                            <div class="person-card contemporary">
-                                <div class="person-name">Al-Husayn</div>
-                                <div class="person-name-arabic">الحسين</div>
-                                <div class="person-title">Grandson • Master of Youth of Paradise</div>
-                                <div class="person-summary">
-                                    Younger grandson of Prophet ﷺ through Fatimah and 'Ali. Known for his piety and principles. Refused to give allegiance to Yazid and was killed in Karbala. Master of the youth of Paradise alongside his brother Al-Hasan.
-                                </div>
+                            <div class="family-section">
+                                <div class="section-title">Key Family Members & Descendants</div>
+                                <div class="child-item"><strong>'Ali ibn Abi Talib (علي)</strong> - Cousin, son-in-law, fourth Caliph, married to Fatimah</div>
+                                <div class="child-item"><strong>Fatimah az-Zahra (فاطمة)</strong> - Beloved daughter, "Leader of women of Paradise"</div>
+                                <div class="child-item"><strong>Al-Hasan (الحسن)</strong> - Grandson through Fatimah, second Imam</div>
+                                <div class="child-item"><strong>Al-Husayn (الحسين)</strong> - Grandson through Fatimah, third Imam</div>
+                                <div class="child-item"><strong>The Ahl al-Bayt (أهل البيت)</strong> - The blessed household of the Prophet</div>
                             </div>
 
-                            <div class="person-card contemporary">
-                                <div class="person-name">Abu Bakr as-Siddiq</div>
-                                <div class="person-name-arabic">أبو بكر الصديق</div>
-                                <div class="person-title">Best Friend • First Caliph • Father of 'A'ishah</div>
-                                <div class="person-summary">
-                                    Closest friend and companion of Prophet ﷺ. First adult male to accept Islam. Father of 'A'ishah. First Rightly-Guided Caliph who unified Arabia and began expansion. Known as "As-Siddiq" (The Truthful) for his unwavering faith.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">'Umar ibn al-Khattab</div>
-                                <div class="person-name-arabic">عمر بن الخطاب</div>
-                                <div class="person-title">Al-Faruq • Second Caliph • Father of Hafsah</div>
-                                <div class="person-summary">
-                                    Second Rightly-Guided Caliph, father of Hafsah. Initially opposed Islam but became one of its strongest supporters after conversion. Known as "Al-Faruq" (The Criterion) for his ability to distinguish truth from falsehood. Expanded Islamic empire greatly.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">'Uthman ibn 'Affan</div>
-                                <div class="person-name-arabic">عثمان بن عفان</div>
-                                <div class="person-title">Dhu'n-Nurayn • Third Caliph</div>
-                                <div class="person-summary">
-                                    Third Rightly-Guided Caliph, married to two daughters of Prophet ﷺ (Ruqayyah, then Umm Kulthum). Known as "Dhu'n-Nurayn" (Possessor of Two Lights). Compiled official Quran manuscript and continued Islamic expansion.
-                                </div>
+                            <div class="prophet-summary" style="background: linear-gradient(135deg, #fff8dc 0%, #fffacd 100%); border-left-color: #daa520;">
+                                <strong>The Final Messenger to All Humanity:</strong> Given the Quran as the eternal miracle and final revelation. Established the perfect Islamic community in Madinah. Known as "Al-Amin" (The Trustworthy) even before his prophethood. The Seal of all Prophets - no messenger will come after him until the Day of Judgment. His message completed and perfected the religion for all mankind.
                             </div>
                         </div>
                     </div>
@@ -1031,1049 +880,20 @@
         <div class="footer">
             <div class="quran-verse">
                 "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ"<br>
-                <span style="font-size: 0.75em; opacity: 0.9;">"And indeed, you are of a great moral character"</span><br>
-                <span style="font-size: 0.65em; opacity: 0.8;">- Quran 68:4 (About Prophet Muhammad ﷺ)</span>
+                <span style="font-size: 0.8em; opacity: 0.9;">"And indeed, you are of a great moral character"</span><br>
+                <span style="font-size: 0.7em; opacity: 0.8;">- Quran 68:4</span>
             </div>
-            <div style="margin: 35px 0;">
-                <div class="quran-verse" style="font-size: 1.6em;">
-                    "مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَـٰكِن رَّسُولَ اللَّـهِ وَخَاتَمَ النَّبِيِّينَ"<br>
-                    <span style="font-size: 0.7em;">"Muhammad is not the father of any of your men, but [he is] the Messenger of Allah and Seal of the Prophets"</span><br>
-                    <span style="font-size: 0.6em;">- Quran 33:40</span>
-                </div>
-            </div>
-            <div style="margin: 35px 0;">
+            <div style="margin: 30px 0;">
                 <div class="quran-verse" style="font-size: 1.4em;">
-                    "وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّـهَ وَاجْتَنِبُوا الطَّاغُوتَ"<br>
-                    <span style="font-size: 0.75em;">"And We certainly sent into every nation a messenger, [saying], 'Worship Allah and avoid Taghut'"</span><br>
-                    <span style="font-size: 0.65em;">- Quran 16:36</span>
+                    "وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا"<br>
+                    <span style="font-size: 0.8em;">"And We certainly sent into every nation a messenger"</span><br>
+                    <span style="font-size: 0.7em;">- Quran 16:36</span>
                 </div>
             </div>
             <div class="source-attribution">
-                This comprehensive sacred genealogy represents the complete prophetic lineage and family tree as established in the Holy Quran and authentic Sahih Hadith. It shows the divine wisdom in Allah's selection of messengers through different eras, nations, and families - from Adam, the first human and prophet, through the great patriarchs Ibrahim, Ishaq, and Ya'qub, to the final universal messenger Muhammad ﷺ, who completed and perfected the religion for all humanity until the Day of Judgment.
-                <br><br>
-                <strong>May Allah's peace and blessings be upon all the prophets, their families, and their righteous companions.</strong>
-                <br>
-                <span style="font-size: 0.9em; opacity: 0.8;">صلى الله عليهم أجمعين</span>
+                This sacred family tree represents the blessed chain of prophethood as established in the Quran and authentic Sahih Hadith, showing how Allah's divine guidance continued through different nations and epochs, culminating in the final, universal message through Prophet Muhammad (ﷺ) - the Seal of Prophets and Mercy to all the Worlds.
             </div>
         </div>
     </div>
 </body>
 </html>
-                                <div class="person-name">Shith</div>
-                                <div class="person-name-arabic">شيث عليه السلام</div>
-                                <div class="person-title">Prophet • Successor to Adam</div>
-                                <div class="person-summary">
-                                    Third son of Adam, appointed as prophet after Habil's death. Continued Adam's message and divine guidance to early humanity. Received divine scrolls and established righteous communities. Father of Seth's lineage leading to future prophets.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Prophetic Legacy</div>
-                                    <div class="relationship-item">Successor to Adam's prophetic mission</div>
-                                    <div class="relationship-item">Ancestor of future prophetic lines</div>
-                                    <div class="relationship-item">Received divine revelations and scrolls</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SECOND GENERATION: EARLY PROPHETIC GUIDANCE -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">Early Generations</div>
-                    <div class="generation-subtitle">The Antediluvian Prophets & Pre-Flood Era</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> The period between Adam and the Great Flood. Multiple generations of humans with various prophets sent to guide them. Increasing corruption led to the necessity of the great flood. This era spans many centuries with several prophetic figures.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="contemporaries-grid">
-                        <div class="person-card prophet">
-                            <div class="person-name">Idris</div>
-                            <div class="person-name-arabic">إدريس عليه السلام</div>
-                            <div class="person-title">Prophet • The Elevated One • Enoch</div>
-                            <div class="person-summary">
-                                Early prophet mentioned in the Quran as being raised to a high station by Allah. Known for his exceptional knowledge, righteousness, and scholarly pursuits. Some Islamic traditions identify him with the biblical Enoch. First to use the pen and taught astronomy and mathematics.
-                            </div>
-                            <div class="relationships">
-                                <div class="relationship-title">Distinctions</div>
-                                <div class="relationship-item">Raised to high station by Allah</div>
-                                <div class="relationship-item">First to write with a pen</div>
-                                <div class="relationship-item">Taught various sciences</div>
-                                <div class="relationship-item">Ascended to heavens while alive</div>
-                            </div>
-                        </div>
-
-                        <div class="person-card contemporary">
-                            <div class="person-name">Methuselah</div>
-                            <div class="person-name-arabic">متوشالح</div>
-                            <div class="person-title">The Long-Lived Patriarch</div>
-                            <div class="person-summary">
-                                Grandfather of Nuh (Noah), known for his extremely long life span. Lived during the period of increasing human corruption before the flood. Represents the antediluvian patriarchs who lived for many centuries.
-                            </div>
-                        </div>
-
-                        <div class="person-card contemporary">
-                            <div class="person-name">Lamech</div>
-                            <div class="person-name-arabic">لامك</div>
-                            <div class="person-title">Father of Nuh</div>
-                            <div class="person-summary">
-                                Father of Prophet Nuh (Noah). Lived during the time of increasing corruption and violence on earth. Witnessed the moral decline that would lead to the necessity of the great flood as divine punishment and renewal.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- THIRD GENERATION: THE GREAT FLOOD ERA -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">The Flood Generation</div>
-                    <div class="generation-subtitle">Nuh's Mission & The Great Cleansing</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> The time of Prophet Nuh's 950-year mission to his people. Widespread corruption and idolatry had overtaken humanity. The great flood served as both divine punishment and renewal, with Nuh's family becoming the ancestors of post-flood humanity.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="family-tree">
-                        <div class="tree-level">
-                            <div class="person-card prophet">
-                                <div class="person-name">Nuh</div>
-                                <div class="person-name-arabic">نوح عليه السلام</div>
-                                <div class="person-title">Prophet & Messenger • Builder of the Ark</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Wife:</span>
-                                        <span class="detail-value">Zulaikha (later became righteous)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Title:</span>
-                                        <span class="detail-value">Al-Siddiq (The Truthful)</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Most beloved son of Ya'qub. Sold into slavery by jealous brothers, rose to become ruler of Egypt through divine dream interpretation. Reunited with family during famine and forgave his brothers. Known for extraordinary beauty, wisdom, patience through trials, and resistance to temptation.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Legacy & Achievements</div>
-                                    <div class="relationship-item">Saved Egypt and region from seven-year famine</div>
-                                    <div class="relationship-item">Brought his family to Egypt, establishing Israelites there</div>
-                                    <div class="relationship-item">Model of forgiveness and divine providence</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Binyamin</div>
-                                <div class="person-name-arabic">بنيامين</div>
-                                <div class="person-title">Youngest Son • Full Brother of Yusuf</div>
-                                <div class="person-summary">
-                                    Youngest son of Ya'qub, full brother of Yusuf through their mother Raheel. After Yusuf's disappearance, he became Ya'qub's most cherished son. Central to Yusuf's plan to reunite with his father when Yusuf was ruler of Egypt.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Yahuda</div>
-                                <div class="person-name-arabic">يهوذا</div>
-                                <div class="person-title">Son of Ya'qub • Ancestor of Judah Tribe</div>
-                                <div class="person-summary">
-                                    One of Ya'qub's twelve sons, founder of the tribe of Judah. From his lineage would come King Dawud (David) and the Judahite royal line. Played a key role in the story of Yusuf's brothers and their eventual reconciliation.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Future Descendants</div>
-                                    <div class="relationship-item">Ancestor of King Dawud (David)</div>
-                                    <div class="relationship-item">Royal line of Judah</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Ruubeel</div>
-                                <div class="person-name-arabic">روبيل</div>
-                                <div class="person-title">Eldest Son • Tribe of Reuben</div>
-                                <div class="person-summary">
-                                    Eldest son of Ya'qub. Initially intended to save Yusuf from his brothers' plot but failed. Later showed remorse and responsibility. Founder of the tribe of Reuben, one of the twelve tribes of Israel.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">The Other Eight Sons</div>
-                                <div class="person-name-arabic">الأبناء الثمانية الآخرون</div>
-                                <div class="person-title">Founders of Remaining Tribes</div>
-                                <div class="person-summary">
-                                    The remaining eight sons of Ya'qub: Simeon (شمعون), Levi (لاوي), Dan (دان), Naphtali (نفتالي), Gad (جاد), Asher (أشير), Issachar (يساكر), and Zebulun (زبولون). Each became the patriarch of one of the twelve tribes of Israel.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Special Notes</div>
-                                    <div class="relationship-item">Levi's descendants became the priestly tribe</div>
-                                    <div class="relationship-item">All participated in migration to Egypt</div>
-                                    <div class="relationship-item">Founders of distinct tribal identities</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Zulaikha</div>
-                                <div class="person-name-arabic">زليخة</div>
-                                <div class="person-title">Wife of Yusuf • The Reformed</div>
-                                <div class="person-summary">
-                                    Originally wife of the Egyptian minister (Al-Aziz), she attempted to seduce Yusuf but was rejected. After years of trials and Yusuf's rise to power, she repented, converted to monotheism, and married Yusuf as a righteous believing woman.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Transformation</div>
-                                    <div class="relationship-item">From tempter to righteous believer</div>
-                                    <div class="relationship-item">Symbol of repentance and redemption</div>
-                                    <div class="relationship-item">Mother to Yusuf's children in Egypt</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SEVENTH GENERATION: MOSES ERA -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">The Exodus Generation</div>
-                    <div class="generation-subtitle">Musa, Harun & Liberation from Egypt</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> After centuries in Egypt, the Israelites had become enslaved under Pharaoh's oppression. Allah sent Musa (Moses) and Harun (Aaron) to liberate them and guide them to the Promised Land. This era includes the miraculous plagues, the parting of the Red Sea, and the receiving of the Torah on Mount Sinai.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="family-tree">
-                        <div class="tree-level">
-                            <div class="person-card prophet">
-                                <div class="person-name">Musa</div>
-                                <div class="person-name-arabic">موسى عليه السلام</div>
-                                <div class="person-title">Prophet & Messenger • Kalimullah • Liberator</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Title:</span>
-                                        <span class="detail-value">Kalimullah (The One Who Spoke to Allah)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Wife:</span>
-                                        <span class="detail-value">Daughter of Shu'ayb (Jethro)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Brother:</span>
-                                        <span class="detail-value">Harun (Aaron) - Prophet and helper</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Sister:</span>
-                                        <span class="detail-value">Maryam (Miriam) - watched over baby Musa</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Saved from Pharaoh's massacre as a baby, raised in Pharaoh's palace. Received the Torah and Ten Commandments on Mount Sinai. Led the Israelites out of Egypt through miraculous signs including the parting of the Red Sea. Known for direct communication with Allah and his unwavering determination.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Major Achievements</div>
-                                    <div class="relationship-item">Liberated Israelites from Egyptian slavery</div>
-                                    <div class="relationship-item">Received Torah and divine law</div>
-                                    <div class="relationship-item">Performed nine clear miracles</div>
-                                    <div class="relationship-item">Led 40-year journey in wilderness</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card prophet">
-                                <div class="person-name">Harun</div>
-                                <div class="person-name-arabic">هارون عليه السلام</div>
-                                <div class="person-title">Prophet • High Priest • Helper of Musa</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Relationship:</span>
-                                        <span class="detail-value">Elder brother of Musa</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Role:</span>
-                                        <span class="detail-value">Spokesman and assistant to Musa</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Position:</span>
-                                        <span class="detail-value">First High Priest of Israelites</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Elder brother of Musa, appointed as his helper and spokesman to Pharaoh due to his eloquence. First high priest of the Israelites and founder of the Aaronic priesthood. Known for his supportive role, eloquent speech, and leadership during Musa's absence on Mount Sinai.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Priestly Legacy</div>
-                                    <div class="relationship-item">Established Israelite priesthood</div>
-                                    <div class="relationship-item">His descendants became priests</div>
-                                    <div class="relationship-item">Eloquent spokesman for Musa</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tree-level">
-                            <div class="person-card wife">
-                                <div class="person-name">Daughter of Shu'ayb</div>
-                                <div class="person-name-arabic">ابنة شعيب</div>
-                                <div class="person-title">Wife of Musa • The Righteous</div>
-                                <div class="person-summary">
-                                    One of the two daughters of Prophet Shu'ayb (Jethro) who married Musa. Met him when he helped her and her sister water their flock at the well. Her father gave her in marriage to Musa after he worked for him for ten years. A righteous and supportive wife who shared in Musa's prophetic mission.
-                                </div>
-                            </div>
-
-                            <div class="person-card prophet contemporary">
-                                <div class="person-name">Shu'ayb</div>
-                                <div class="person-name-arabic">شعيب عليه السلام</div>
-                                <div class="person-title">Prophet • Father-in-law of Musa</div>
-                                <div class="person-summary">
-                                    Prophet sent to the people of Madyan who were known for cheating in trade and weights. Father-in-law of Musa who employed him as a shepherd for ten years. Gave wise counsel to Musa and supported his mission. His people were destroyed for their dishonest practices after rejecting his message.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Pharaoh</div>
-                                <div class="person-name-arabic">فرعون</div>
-                                <div class="person-title">Tyrant King of Egypt</div>
-                                <div class="person-summary">
-                                    Arrogant ruler of Egypt who enslaved the Israelites and claimed divinity. Ordered the killing of Israelite male babies, leading to Musa being hidden in the river. Despite witnessing nine clear miracles, he refused to believe and pursued the Israelites, drowning in the Red Sea.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Asiya</div>
-                                <div class="person-name-arabic">آسية</div>
-                                <div class="person-title">Wife of Pharaoh • The Believing Queen</div>
-                                <div class="person-summary">
-                                    Righteous wife of Pharaoh who found baby Musa in the river and convinced Pharaoh to adopt him. Later believed in Musa's message and was tortured by Pharaoh for her faith. One of the four most perfect women in Islamic tradition, known for her unwavering faith despite persecution.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Honor</div>
-                                    <div class="relationship-item">One of four most perfect women</div>
-                                    <div class="relationship-item">Saved and raised Musa</div>
-                                    <div class="relationship-item">Martyred for her faith</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Haman</div>
-                                <div class="person-name-arabic">هامان</div>
-                                <div class="person-title">Minister of Pharaoh</div>
-                                <div class="person-summary">
-                                    Chief minister and advisor to Pharaoh, architect and builder. Carried out Pharaoh's oppressive policies against the Israelites. Built the great tower for Pharaoh who wanted to "ascend to the God of Musa." Shared in Pharaoh's arrogance and ultimate destruction.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Qarun</div>
-                                <div class="person-name-arabic">قارون</div>
-                                <div class="person-title">The Wealthy Israelite</div>
-                                <div class="person-summary">
-                                    Wealthy Israelite contemporary of Musa, known for his immense riches and arrogance. Despite being from Musa's own people, he opposed him out of pride and jealousy. Was swallowed by the earth along with his palace as punishment for his arrogance and oppression of the poor.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- EIGHTH GENERATION: ROYAL PROPHETS -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">The Royal Prophets Era</div>
-                    <div class="generation-subtitle">Dawud, Sulayman & The Golden Age of Israel</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> After the settlement in the Promised Land and the period of judges, Allah blessed Israel with prophet-kings. Dawud (David) and his son Sulayman (Solomon) combined prophetic wisdom with royal authority, creating the golden age of the Israelite kingdom with unprecedented prosperity and divine favor.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="family-tree">
-                        <div class="tree-level">
-                            <div class="person-card prophet patriarch">
-                                <div class="person-name">Dawud</div>
-                                <div class="person-name-arabic">داوود عليه السلام</div>
-                                <div class="person-title">Prophet & King • Psalmist • Victor over Goliath</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Scripture:</span>
-                                        <span class="detail-value">Zabur (Psalms)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Famous Victory:</span>
-                                        <span class="detail-value">Defeated Jalut (Goliath) as young man</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Gifts:</span>
-                                        <span class="detail-value">Beautiful voice, birds and mountains echoed his praise</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Prophet-king of Israel who combined spiritual authority with temporal power. Given the Zabur (Psalms) with beautiful divine hymns. Defeated the giant Jalut (Goliath) with a sling as a young man. Known for his melodious voice in worship that made birds and mountains join his praise, and for establishing a just and prosperous kingdom.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Achievements</div>
-                                    <div class="relationship-item">United and strengthened Kingdom of Israel</div>
-                                    <div class="relationship-item">Established Jerusalem as capital</div>
-                                    <div class="relationship-item">Received divine revelation in Zabur</div>
-                                    <div class="relationship-item">Renowned for justice and wisdom</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tree-level">
-                            <div class="person-card prophet patriarch">
-                                <div class="person-name">Sulayman</div>
-                                <div class="person-name-arabic">سليمان عليه السلام</div>
-                                <div class="person-title">Prophet & King • Master of Creation • The Wise</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Father:</span>
-                                        <span class="detail-value">Dawud (David)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Special Powers:</span>
-                                        <span class="detail-value">Command over jinn, animals, and wind</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Languages:</span>
-                                        <span class="detail-value">Understood speech of all creatures</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Famous Wife:</span>
-                                        <span class="detail-value">Queen of Sheba (Bilqis)</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Son of Dawud, granted unprecedented dominion over all creation. Given command over jinn, animals, and wind by Allah. Built the magnificent Temple in Jerusalem with the help of jinn. Known for unparalleled wisdom that attracted rulers from around the world, immense wealth, and the most glorious kingdom in history.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Unique Achievements</div>
-                                    <div class="relationship-item">Built First Temple (Bayt al-Maqdis)</div>
-                                    <div class="relationship-item">Commanded armies of jinn and humans</div>
-                                    <div class="relationship-item">Controlled the winds for travel</div>
-                                    <div class="relationship-item">Spoke with all animals and birds</div>
-                                    <div class="relationship-item">Judged with divine wisdom</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Queen of Sheba</div>
-                                <div class="person-name-arabic">ملكة سبأ - بلقيس</div>
-                                <div class="person-title">Bilqis • Queen of Yemen • Wife of Sulayman</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Kingdom:</span>
-                                        <span class="detail-value">Sheba (Yemen/South Arabia)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Famous for:</span>
-                                        <span class="detail-value">Wisdom, wealth, and magnificent throne</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Conversion:</span>
-                                        <span class="detail-value">From sun worship to monotheism</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Powerful queen who ruled the kingdom of Sheba (Yemen). Initially a sun worshipper, she was invited by Sulayman through the hoopoe bird. After witnessing his wisdom and power, she converted to monotheism and married him. Known for her intelligence, diplomatic skills, and the famous test of Sulayman's wisdom.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Legacy</div>
-                                    <div class="relationship-item">United two great kingdoms</div>
-                                    <div class="relationship-item">Symbol of wisdom recognizing wisdom</div>
-                                    <div class="relationship-item">Brought her people to monotheism</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tree-level">
-                            <div class="person-card contemporary">
-                                <div class="person-name">The Hoopoe</div>
-                                <div class="person-name-arabic">الهدهد</div>
-                                <div class="person-title">Messenger Bird of Sulayman</div>
-                                <div class="person-summary">
-                                    Special hoopoe bird in Sulayman's army who discovered the Queen of Sheba and her sun-worshipping people. Served as messenger between Sulayman and Bilqis, carrying letters and intelligence. Represents the unique nature of Sulayman's kingdom where even animals served in organized roles.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">The Ant Queen</div>
-                                <div class="person-name-arabic">ملكة النمل</div>
-                                <div class="person-title">The Warning Ant</div>
-                                <div class="person-summary">
-                                    Queen of the ants who warned her colony about the approaching army of Sulayman, showing care for her people. Her words were heard and understood by Sulayman, who smiled at her wisdom and thanked Allah for his ability to understand all creatures. Symbol of responsible leadership at every level.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Jinn of Sulayman</div>
-                                <div class="person-name-arabic">جن سليمان</div>
-                                <div class="person-title">The Subjugated Jinn</div>
-                                <div class="person-summary">
-                                    Various jinn who were subjugated to serve in Sulayman's kingdom. They built magnificent structures, dove for pearls, and performed other tasks. Some were builders, others were divers. Their service to Sulayman represents divine authority over all creation, including the unseen world.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- NINTH GENERATION: LATE ISRAELITE PROPHETS -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">The Final Israelite Prophets</div>
-                    <div class="generation-subtitle">Zakariya, Yahya & 'Isa - The Culmination</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> The final phase of Israelite prophethood. After centuries of decline and division, Allah sent the last prophets to the Children of Israel. This era culminates with 'Isa (Jesus), who performed great miracles but was rejected by most of his people, leading to the need for the final universal message.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="family-tree">
-                        <div class="tree-level">
-                            <div class="person-card prophet">
-                                <div class="person-name">Zakariya</div>
-                                <div class="person-name-arabic">زكريا عليه السلام</div>
-                                <div class="person-title">Prophet • Guardian of Maryam • Father of Yahya</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Wife:</span>
-                                        <span class="detail-value">Ishba (Elizabeth)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Role:</span>
-                                        <span class="detail-value">Guardian of Maryam in the Temple</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Miracle:</span>
-                                        <span class="detail-value">Son Yahya born in old age</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Prophet and priest who served in the Temple of Jerusalem. Guardian and protector of the blessed Maryam (Mary) when she was dedicated to temple service. Witnessed miraculous sustenance provided to Maryam. Given the miracle son Yahya in his old age after earnest prayer to Allah.
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Ishba</div>
-                                <div class="person-name-arabic">أشياع</div>
-                                <div class="person-title">Elizabeth • Wife of Zakariya</div>
-                                <div class="person-summary">
-                                    Righteous wife of Prophet Zakariya and mother of Yahya. Like her husband, she was advanced in age when Allah blessed them with Yahya. Known for her piety and support of her husband's prophetic mission. Relative of Maryam (Mary), mother of 'Isa.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tree-level">
-                            <div class="person-card prophet">
-                                <div class="person-name">Yahya</div>
-                                <div class="person-name-arabic">يحيى عليه السلام</div>
-                                <div class="person-title">Prophet • John the Baptist • The Forerunner</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Father:</span>
-                                        <span class="detail-value">Zakariya (Zechariah)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Relationship:</span>
-                                        <span class="detail-value">Cousin of 'Isa (Jesus)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Character:</span>
-                                        <span class="detail-value">Pious, chaste, ascetic from youth</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Son of Zakariya, cousin of 'Isa (Jesus). First to recognize and confirm 'Isa's prophethood. Known for exceptional piety, chastity, and asceticism from his youth. Preached repentance and preparation for 'Isa's mission. Baptized believers including 'Isa himself. Martyred for speaking truth to power.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Mission</div>
-                                    <div class="relationship-item">Prepared way for 'Isa's ministry</div>
-                                    <div class="relationship-item">First to confirm 'Isa as Messiah</div>
-                                    <div class="relationship-item">Preached repentance and righteousness</div>
-                                    <div class="relationship-item">Practiced extreme piety and asceticism</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Maryam</div>
-                                <div class="person-name-arabic">مريم عليها السلام</div>
-                                <div class="person-title">Mother of 'Isa • Most Virtuous Woman</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Father:</span>
-                                        <span class="detail-value">'Imran</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mother:</span>
-                                        <span class="detail-value">Hannah (devoted her to Temple service)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Guardian:</span>
-                                        <span class="detail-value">Zakariya in the Temple</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Status:</span>
-                                        <span class="detail-value">Chosen above all women of the worlds</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Most virtuous woman in Islamic tradition, chosen by Allah above all women of creation. Mother of 'Isa through virgin birth by Allah's command. Dedicated to Temple service from childhood under Zakariya's care. Received miraculous sustenance and divine messages through angels. Model of purity, devotion, and submission to Allah.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Honor</div>
-                                    <div class="relationship-item">One of four most perfect women</div>
-                                    <div class="relationship-item">Only woman mentioned by name in Quran</div>
-                                    <div class="relationship-item">Chosen above all women of worlds</div>
-                                    <div class="relationship-item">Mother of the Messiah</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tree-level">
-                            <div class="person-card prophet">
-                 class="detail-label">Wife:</span>
-                                        <span class="detail-value">Righteous believer (his previous disbelieving wife perished)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mission Duration:</span>
-                                        <span class="detail-value">950 years calling his people</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Sent to guide a corrupt people for 950 years. Built the great ark by Allah's command during the worldwide flood. Saved believers, his family, and pairs of all animals. Became the second father of humanity after the flood cleansed the earth of corruption.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Sons - Post-Flood Humanity</div>
-                                    <div class="relationship-item"><strong>Sham:</strong> Ancestor of Semitic peoples (Arabs, Jews)</div>
-                                    <div class="relationship-item"><strong>Ham:</strong> Ancestor of African and some Asian peoples</div>
-                                    <div class="relationship-item"><strong>Yafith (Japheth):</strong> Ancestor of European peoples</div>
-                                    <div class="relationship-item"><strong>Canaan:</strong> Disbelieving son who perished in flood</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Wife of Nuh</div>
-                                <div class="person-name-arabic">زوجة نوح المؤمنة</div>
-                                <div class="person-title">The Believing Wife</div>
-                                <div class="person-summary">
-                                    Righteous woman who believed in Nuh's message and was saved on the ark. The Quran mentions that Nuh's disbelieving wife was among those who perished, indicating he had a righteous wife who survived with the believing community.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Lines to sons -->
-                        <div class="connection-line vertical-line" style="left: 50%; top: 500px; height: 100px; transform: translateX(-50%);"></div>
-                        <div class="connection-line horizontal-line" style="top: 580px; left: 20%; width: 60%;"></div>
-                        <div class="connection-point" style="left: 50%; top: 590px; transform: translateX(-50%);"></div>
-
-                        <div class="tree-level">
-                            <div class="person-card contemporary">
-                                <div class="person-name">Sham</div>
-                                <div class="person-name-arabic">سام</div>
-                                <div class="person-title">Ancestor of Semitic Peoples</div>
-                                <div class="person-summary">
-                                    Son of Nuh, ancestor of the Semitic peoples including Arabs and Jews. Through his lineage came Ibrahim and eventually both the Jewish and Arab prophetic lines. His descendants populated much of the Middle East.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Ham</div>
-                                <div class="person-name-arabic">حام</div>
-                                <div class="person-title">Ancestor of African Peoples</div>
-                                <div class="person-summary">
-                                    Son of Nuh, ancestor of African and some Asian peoples. His descendants spread across Africa and established great civilizations. Represents the diversity of human races from Nuh's family.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Yafith</div>
-                                <div class="person-name-arabic">يافث</div>
-                                <div class="person-title">Ancestor of European Peoples</div>
-                                <div class="person-summary">
-                                    Son of Nuh (Japheth), ancestor of European and some Asian peoples. His descendants spread northward and established communities across Europe and northern Asia, contributing to human diversity.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FOURTH GENERATION: POST-FLOOD PROPHETS -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">Post-Flood Prophets</div>
-                    <div class="generation-subtitle">Regional Messengers & Growing Civilizations</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> As humanity spread and multiplied after the flood, different communities developed. Allah sent various prophets to guide different peoples and regions. This period saw the rise of early civilizations and the need for continued divine guidance.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="contemporaries-grid">
-                        <div class="person-card prophet">
-                            <div class="person-name">Hud</div>
-                            <div class="person-name-arabic">هود عليه السلام</div>
-                            <div class="person-title">Prophet to the 'Ad People</div>
-                            <div class="person-summary">
-                                Sent to the tribe of 'Ad in the Arabian Peninsula. His people were known for their physical strength and architectural achievements but fell into arrogance and idolatry. When they rejected his message, they were destroyed by a fierce wind.
-                            </div>
-                            <div class="relationships">
-                                <div class="relationship-title">Mission Context</div>
-                                <div class="relationship-item">Sent to the powerful 'Ad tribe</div>
-                                <div class="relationship-item">Warned against arrogance and idolatry</div>
-                                <div class="relationship-item">His people destroyed by fierce winds</div>
-                            </div>
-                        </div>
-
-                        <div class="person-card prophet">
-                            <div class="person-name">Salih</div>
-                            <div class="person-name-arabic">صالح عليه السلام</div>
-                            <div class="person-title">Prophet to the Thamud People</div>
-                            <div class="person-summary">
-                                Sent to the tribe of Thamud, skilled stone carvers who built homes in mountains. Allah gave them the miracle of a she-camel as a sign, but they killed it in defiance. They were destroyed by a mighty blast and earthquake.
-                            </div>
-                            <div class="relationships">
-                                <div class="relationship-title">Miracle & Outcome</div>
-                                <div class="relationship-item">Given miracle of Allah's she-camel</div>
-                                <div class="relationship-item">People were skilled stone carvers</div>
-                                <div class="relationship-item">Destroyed after killing the camel</div>
-                            </div>
-                        </div>
-
-                        <div class="person-card contemporary">
-                            <div class="person-name">People of 'Ad</div>
-                            <div class="person-name-arabic">قوم عاد</div>
-                            <div class="person-title">The Arrogant Builders</div>
-                            <div class="person-summary">
-                                Powerful tribe in southern Arabia, contemporaries of Hud. Known for their massive construction projects and physical strength. Their arrogance led them to reject Hud's message and they were destroyed by devastating winds.
-                            </div>
-                        </div>
-
-                        <div class="person-card contemporary">
-                            <div class="person-name">People of Thamud</div>
-                            <div class="person-name-arabic">قوم ثمود</div>
-                            <div class="person-title">The Stone Carvers</div>
-                            <div class="person-summary">
-                                Skilled builders who carved elaborate homes from rock faces and mountains. Contemporaries of Salih, they demanded a miracle and received the she-camel, but their transgression led to their destruction by earthquake and blast.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FIFTH GENERATION: THE ABRAHAMIC ERA -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">The Abrahamic Era</div>
-                    <div class="generation-subtitle">Father of Prophetic Nations & Monotheistic Foundation</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> The pivotal era of Ibrahim (Abraham), who established pure monotheism and became the father of prophetic nations. His descendants through both Isma'il and Ishaq would produce the majority of subsequent prophets. This era includes the building of the Ka'bah and the establishment of pilgrimage rites.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="family-tree">
-                        <!-- Ibrahim and his contemporaries -->
-                        <div class="tree-level">
-                            <div class="person-card contemporary">
-                                <div class="person-name">Lut</div>
-                                <div class="person-name-arabic">لوط عليه السلام</div>
-                                <div class="person-title">Prophet • Nephew of Ibrahim</div>
-                                <div class="person-summary">
-                                    Nephew and companion of Ibrahim. Sent to the people of Sodom and Gomorrah who were engaged in immoral practices. When they rejected his message and threatened him, the cities were destroyed by Allah. Lut and his righteous family were saved except his wife.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Family & Mission</div>
-                                    <div class="relationship-item">Nephew of Ibrahim</div>
-                                    <div class="relationship-item">Sent to people of Sodom & Gomorrah</div>
-                                    <div class="relationship-item">Saved from destruction with believing family</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card key-prophet patriarch">
-                                <div class="person-name">Ibrahim</div>
-                                <div class="person-name-arabic">إبراهيم عليه السلام</div>
-                                <div class="person-title">Prophet & Messenger • Friend of Allah • Father of Prophets</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Title:</span>
-                                        <span class="detail-value">Khalilullah (Friend of Allah)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Father:</span>
-                                        <span class="detail-value">Azar (Terah) - idol maker</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Birthplace:</span>
-                                        <span class="detail-value">Ur of the Chaldeans (Babylonia)</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Called "Khalilullah" (Friend of Allah). Broke the idols of his people and survived being thrown into Nimrod's fire. Established pure monotheism and built the Ka'bah with Isma'il. Father of two prophetic lines through his sons. His legacy includes the pilgrimage rites and the foundation of monotheistic faith.
-                                </div>
-                            </div>
-
-                            <div class="person-card contemporary">
-                                <div class="person-name">Nimrod</div>
-                                <div class="person-name-arabic">النمرود</div>
-                                <div class="person-title">Tyrant King • Opponent of Ibrahim</div>
-                                <div class="person-summary">
-                                    Arrogant king of Babylon who claimed divinity and opposed Ibrahim's monotheistic message. Ordered Ibrahim to be thrown into fire when he destroyed the idols. His tyranny and claim to godhood made him a symbol of ultimate arrogance against Allah.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Vertical connection to wives -->
-                        <div class="connection-line vertical-line" style="left: 50%; top: 400px; height: 80px; transform: translateX(-50%);"></div>
-
-                        <!-- Ibrahim's Wives -->
-                        <div class="tree-level wives-section">
-                            <div class="person-card wife">
-                                <div class="person-name">Sarah</div>
-                                <div class="person-name-arabic">سارة</div>
-                                <div class="person-title">First Wife of Ibrahim</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Relationship:</span>
-                                        <span class="detail-value">Cousin and first wife of Ibrahim</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Miracle:</span>
-                                        <span class="detail-value">Gave birth to Ishaq in old age</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    First wife of Ibrahim and mother of Ishaq. Initially barren, she was blessed with a son in her old age as promised by Allah's messengers. Known for her faith, patience, and hospitality to divine guests. Ancestor of the Israelite prophetic line.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Legacy</div>
-                                    <div class="relationship-item">Mother of Ishaq (Isaac)</div>
-                                    <div class="relationship-item">Grandmother of Ya'qub (Jacob)</div>
-                                    <div class="relationship-item">Ancestor of Israelite prophets</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Hajar</div>
-                                <div class="person-name-arabic">هاجر</div>
-                                <div class="person-title">Second Wife of Ibrahim</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Origin:</span>
-                                        <span class="detail-value">Egyptian, given to Sarah as servant</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Trial:</span>
-                                        <span class="detail-value">Left in Makkah desert with baby Isma'il</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Second wife of Ibrahim and mother of Isma'il. Left with her infant son in the barren valley of Makkah, she searched for water between Safa and Marwa hills. Allah caused the Zamzam well to spring forth. Her actions became part of Hajj pilgrimage rites. Ancestor of Arab prophetic line.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Legacy</div>
-                                    <div class="relationship-item">Mother of Isma'il (Ishmael)</div>
-                                    <div class="relationship-item">Her search became Sa'i ritual in Hajj</div>
-                                    <div class="relationship-item">Ancestor of Arab tribes including Quraysh</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Connection lines to sons -->
-                        <div class="connection-line vertical-line" style="left: 35%; top: 750px; height: 100px;"></div>
-                        <div class="connection-line vertical-line" style="left: 65%; top: 750px; height: 100px;"></div>
-                        <div class="connection-point" style="left: 35%; top: 840px; transform: translateX(-50%);"></div>
-                        <div class="connection-point" style="left: 65%; top: 840px; transform: translateX(-50%);"></div>
-
-                        <!-- Ibrahim's Sons -->
-                        <div class="tree-level">
-                            <div class="person-card prophet patriarch">
-                                <div class="person-name">Isma'il</div>
-                                <div class="person-name-arabic">إسماعيل عليه السلام</div>
-                                <div class="person-title">Prophet • Ancestor of Arabs • Builder of Ka'bah</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mother:</span>
-                                        <span class="detail-value">Hajar (Hagar)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Great Trial:</span>
-                                        <span class="detail-value">Willingly offered for sacrifice by Ibrahim</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Achievement:</span>
-                                        <span class="detail-value">Built Ka'bah with his father</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Son of Ibrahim and Hajar. Survived the great trial of sacrifice, showing complete submission to Allah. Built the sacred Ka'bah with his father in Makkah. Became the ancestor of Arab tribes, particularly Quraysh (Prophet Muhammad's tribe). Known for his patience, obedience, and devotion.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Descendants & Legacy</div>
-                                    <div class="relationship-item">Ancestor of Arab tribes</div>
-                                    <div class="relationship-item">Forefathers of Quraysh tribe</div>
-                                    <div class="relationship-item">Great-grandfather of Prophet Muhammad (many generations)</div>
-                                    <div class="relationship-item">Established pilgrimage traditions</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card prophet patriarch">
-                                <div class="person-name">Ishaq</div>
-                                <div class="person-name-arabic">إسحاق عليه السلام</div>
-                                <div class="person-title">Prophet • Promised Son • Father of Ya'qub</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mother:</span>
-                                        <span class="detail-value">Sarah</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Birth:</span>
-                                        <span class="detail-value">Miracle birth when parents were very old</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Promise:</span>
-                                        <span class="detail-value">Angels announced his birth to Ibrahim & Sarah</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Son of Ibrahim and Sarah. Miracle birth in their old age as promised by Allah's angels. Father of Ya'qub (Israel) and grandfather of the twelve tribes of Israel. Ancestor of the Israelite prophetic line including Musa, 'Isa, and many others.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Descendants & Legacy</div>
-                                    <div class="relationship-item">Father of Ya'qub (Israel)</div>
-                                    <div class="relationship-item">Grandfather of twelve tribes of Israel</div>
-                                    <div class="relationship-item">Ancestor of Musa, 'Isa, and Israelite prophets</div>
-                                    <div class="relationship-item">Promised son of divine covenant</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SIXTH GENERATION: JACOB'S ERA -->
-            <div class="generation">
-                <div class="generation-header">
-                    <div class="generation-title">The Israel Generation</div>
-                    <div class="generation-subtitle">Ya'qub & the Twelve Tribes Foundation</div>
-                    <div class="era-info">
-                        <strong>Era Context:</strong> Ya'qub (Jacob/Israel) and his twelve sons who became the founding fathers of the twelve tribes of Israel. This era includes the story of Yusuf's trials and rise to power in Egypt, which led to the Israelites' migration to Egypt.
-                    </div>
-                </div>
-
-                <div class="era-section">
-                    <div class="family-tree">
-                        <div class="tree-level">
-                            <div class="person-card prophet patriarch">
-                                <div class="person-name">Ya'qub</div>
-                                <div class="person-name-arabic">يعقوب عليه السلام</div>
-                                <div class="person-title">Prophet • Israel • Father of Twelve Tribes</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Father:</span>
-                                        <span class="detail-value">Ishaq (Isaac)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Title:</span>
-                                        <span class="detail-value">Israel (given by Allah)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span class="detail-label">Wives:</span>
-                                        <span class="detail-value">Raheel (Rachel), Lea (Leah), and others</span>
-                                    </div>
-                                </div>
-                                <div class="person-summary">
-                                    Son of Ishaq, grandson of Ibrahim. Given the title "Israel" by Allah. Father of twelve sons who became the ancestors of the twelve tribes of Israel. Known for his patience during separation from his beloved son Yusuf and his eventual reunion with him in Egypt.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Ya'qub's wives -->
-                        <div class="tree-level wives-section">
-                            <div class="person-card wife">
-                                <div class="person-name">Raheel</div>
-                                <div class="person-name-arabic">راحيل</div>
-                                <div class="person-title">Beloved Wife of Ya'qub</div>
-                                <div class="person-summary">
-                                    Most beloved wife of Ya'qub. Mother of Yusuf and Binyamin. Her beauty and character made her Ya'qub's preferred wife. Died during the birth of Binyamin, leaving Ya'qub to care for their sons with special affection.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Children</div>
-                                    <div class="relationship-item">Yusuf (Joseph) - the prophet</div>
-                                    <div class="relationship-item">Binyamin (Benjamin) - youngest son</div>
-                                </div>
-                            </div>
-
-                            <div class="person-card wife">
-                                <div class="person-name">Lea</div>
-                                <div class="person-name-arabic">ليئة</div>
-                                <div class="person-title">First Wife of Ya'qub</div>
-                                <div class="person-summary">
-                                    First wife of Ya'qub, sister of Raheel. Mother of several of Ya'qub's sons including Yahuda (Judah). Though not as beloved as Raheel, she was a righteous woman and mother of future tribal leaders.
-                                </div>
-                                <div class="relationships">
-                                    <div class="relationship-title">Notable Sons</div>
-                                    <div class="relationship-item">Yahuda (Judah) - ancestor of Dawud's line</div>
-                                    <div class="relationship-item">Ruubeel (Reuben) - eldest son</div>
-                                    <div class="relationship-item">Several other sons of the twelve</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Connection to twelve sons -->
-                        <div class="connection-line vertical-line" style="left: 50%; top: 650px; height: 80px; transform: translateX(-50%);"></div>
-                        
-                        <!-- The Twelve Sons Grid -->
-                        <div class="contemporaries-grid" style="margin-top: 100px;">
-                            <div class="person-card prophet">
-                                <div class="person-name">Yusuf</div>
-                                <div class="person-name-arabic">يوسف عليه السلام</div>
-                                <div class="person-title">Prophet • The Truthful • Ruler of Egypt</div>
-                                <div class="person-details">
-                                    <div class="detail-row">
-                                        <span class="detail-label">Mother:</span>
-                                        <span class="detail-value">Raheel (Rachel)</span>
-                                    </div>
-                                    <div class="detail-row">
-                                        <span
-                                        Created by Allah from clay and breathed into by His spirit. Given knowledge of all names. First to receive divine revelation. Resided in Paradise with Hawwa before being sent to Earth to establish humanity and begin the cycle of divine guidance.
-                                    </div>
-                                    <div class="relationships">
-                                        <div class="relationship-title">Sacred Family</div>
-                                        <div class="relationship-item"><strong>Wife:</strong> Hawwa (Eve/حواء) - First woman, created for companionship</div>
-                                        <div class="relationship-item"><strong>Status:</strong> Father of all humanity, first prophet</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Marriage Connection -->
-                            <div class="connection-line marriage-line" style="left: 520px; top: 200px; height: 100px;"></div>
-                            <div class="connection-point marriage-point" style="left: 508px; top: 290px;"></div>
-
-                            <!-- Hawwa (Eve) -->
-                            <div class="tree-branch">
-                                <div class="person-card wife">
-                                    <div class="person-name">Hawwa</div>
-                                    <div class="person-name-arabic">حواء</div>
-                                    <div class="person-title">First Woman • Mother of Humanity</div>
-                                    <div class="person-summary">
-                                        Created by Allah as a companion for Adam. First woman and mother of all humanity. Shared in the experience of Paradise and the journey to Earth. Partner in establishing the first human family.
-                                    </div>
-                                    <div class="relationships">
-                                        <div class="relationship-title">Role</div>
-                                        <div class="relationship-item">Mother of all human beings</div>
-                                        <div class="relationship-item">Companion to first prophet</div>
-                                        <div class="relationship-item">Co-establisher of human family</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Vertical line down to children -->
-                        <div class="connection-line vertical-line" style="left: 50%; top: 400px; height: 120px; transform: translateX(-50%);"></div>
-                        <div class="connection-point" style="left: 50%; top: 510px; transform: translateX(-50%);"></div>
-
-                        <!-- Children of Adam and Hawwa -->
-                        <div class="tree-level">
-                            <div class="person-card contemporary">
-                                <div class="person-name">Habil</div>
-                                <div class="person-name-arabic">هابيل</div>
-                                <div class="person-title">The Righteous Son • First Martyr</div>
-                                <div class="person-summary">
